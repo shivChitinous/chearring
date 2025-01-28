@@ -1,0 +1,1215 @@
+(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0") (uuid "5e61c743-ccd5-47ac-8234-f60eb6f38a62") (paper "A4") (lib_symbols 
+
+(symbol "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV" (exclude_from_sim no) (in_bom yes) (on_board yes) 
+
+(property "Reference" "LED" (at 10.1904 8.9165 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "" (at 10.182 6.3637 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603PBC-TT-5MAV/Kingbright/view-part?ref=eda Check availability" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "ki_locked" "" (at 0 0 0) (effects (font (size 1.27 1.27)))) 
+
+(symbol "APG0603PBC-TT-5MAV_1_0" 
+
+(polyline (pts 
+
+(xy 5.08 0) 
+
+(xy 10.16 2.54)) (stroke (width 0.1524) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 5.08 2.54) 
+
+(xy 5.08 -2.54)) (stroke (width 0.1524) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 6.604 3.048) 
+
+(xy 4.064 5.588)) (stroke (width 0.1524) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 8.636 3.048) 
+
+(xy 6.096 5.588)) (stroke (width 0.1524) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 10.16 -2.54) 
+
+(xy 5.08 0)) (stroke (width 0.1524) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 10.16 -2.54) 
+
+(xy 10.16 2.54)) (stroke (width 0.1524) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 4.064 5.5879) 
+
+(xy 4.826 4.064) 
+
+(xy 5.588 4.826) 
+
+(xy 4.064 5.588)) (stroke (width 0.254) (type solid)) (fill (type outline))) 
+
+(polyline (pts 
+
+(xy 6.096 5.5879) 
+
+(xy 6.858 4.064) 
+
+(xy 7.62 4.826) 
+
+(xy 6.096 5.588)) (stroke (width 0.254) (type solid)) (fill (type outline))) (pin input line (at 0 0 0) (length 5.08) (name "K" (effects (font (size 0 0)))) (number "1" (effects (font (size 1.27 1.27))))) (pin input line (at 15.24 0 180) (length 5.08) (name "A" (effects (font (size 0 0)))) (number "2" (effects (font (size 1.27 1.27)))))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 142.24 86.36 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "e26ba859-da02-4c61-a2f6-c2b9c0eded13") 
+
+(property "Reference" "D1" (at 151.1565 96.5504 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 148.6037 96.542 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 142.24 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 142.24 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 142.24 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "8f10b422-16e8-4565-b4ed-16b5d8b9af54")) (pin "2" (uuid "f501683a-ce3b-4519-998d-f5a3454fdaa8")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D1") (unit 1))))) (sheet_instances (path "/" (page "1"))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 62.23 25.4 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "4cd9f386-88d7-4046-91e8-5003f041b25a") 
+
+(property "Reference" "D1" (at 71.1465 35.5904 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 68.5937 35.582 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 62.23 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 62.23 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 62.23 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "7abd012a-9352-4f02-9e27-1df14dd63460")) (pin "2" (uuid "06897b23-8e06-4c17-ba60-9462b97a15ad")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D1") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 80.01 25.4 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "cca3f458-fb38-4279-a0b9-ff9f45a4423b") 
+
+(property "Reference" "D2" (at 88.9265 35.5904 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 86.3737 35.582 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 80.01 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 80.01 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 80.01 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "51777afd-446f-4a1c-ac11-6a719dd9df52")) (pin "2" (uuid "35cb3ed7-f3a9-495d-adec-3c882b00e203")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D2") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 97.79 25.4 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "fb04d66f-be63-453b-82a9-c5b691e224a6") 
+
+(property "Reference" "D3" (at 106.7065 35.5904 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 104.1537 35.582 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 97.79 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 97.79 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 97.79 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "60b0f713-5adf-41e5-83f6-8f833713621c")) (pin "2" (uuid "33be1a81-4b22-49ee-883a-cfe539fc951a")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D3") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 115.57 25.4 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "8f4e67a7-113c-4d14-b3e6-2d076c292763") 
+
+(property "Reference" "D4" (at 124.4865 35.5904 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 121.9337 35.582 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 115.57 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 115.57 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 115.57 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "6e202c44-034a-45d4-a971-72a78e6f1a16")) (pin "2" (uuid "db1122e3-7954-4206-92f9-fd444c9bbfe7")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D4") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 133.35 25.4 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "cf524fc6-727e-4f4f-91e8-5aefb95dad05") 
+
+(property "Reference" "D5" (at 142.2665 35.5904 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 139.7137 35.582 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 133.35 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 133.35 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 133.35 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "bf783ae7-4014-4357-8602-fc9ebaf8a706")) (pin "2" (uuid "90eb6f4c-2e59-4669-9473-aad817da3210")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D5") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 44.45 40.64 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "ffa74ba7-d14c-4ea6-a159-4cf0b6eef730") 
+
+(property "Reference" "D6" (at 53.3665 50.8304 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 50.8137 50.822 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 44.45 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 44.45 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 44.45 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b7da9d1f-7acf-457f-9f73-8631a32002db")) (pin "2" (uuid "44dc4880-45d4-4cc8-9ca5-ea4ed61e7011")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D6") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 80.01 40.64 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "86363420-b047-4b44-a1b0-af6fb475298f") 
+
+(property "Reference" "D7" (at 88.9265 50.8304 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 86.3737 50.822 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 80.01 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 80.01 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 80.01 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "99861f56-e4c0-438a-a8c8-e066c77e0397")) (pin "2" (uuid "cbc9544a-ba13-4b21-9d64-08374f6a31af")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D7") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 97.79 40.64 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b860d138-be77-4ca0-be83-bed339499eb1") 
+
+(property "Reference" "D8" (at 106.7065 50.8304 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 104.1537 50.822 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 97.79 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 97.79 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 97.79 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b771b7d3-93a4-49b7-bc6e-9d90526a1cb2")) (pin "2" (uuid "49ac8175-d6ac-4028-87bf-50a1d90df97d")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D8") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 115.57 40.64 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "7b3f4f79-8dae-45e4-ac28-22a3dfe1866c") 
+
+(property "Reference" "D9" (at 124.4865 50.8304 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 121.9337 50.822 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 115.57 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 115.57 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 115.57 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "17ba3cec-38bf-4f71-8eef-7686807e005a")) (pin "2" (uuid "57ab20a8-d05e-487e-b069-364f5deaa951")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D9") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 133.35 40.64 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "9feae82f-d45e-40c4-af79-06d2e65f6ddb") 
+
+(property "Reference" "D10" (at 142.2665 50.8304 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 139.7137 50.822 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 133.35 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 133.35 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 133.35 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "fdac0be5-9677-4482-ac55-ebe48148249f")) (pin "2" (uuid "4081d221-45ed-4caf-bd7a-4cf802c5d799")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D10") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 44.45 55.88 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "7d3a03b7-e7fd-4dc7-8ddb-93b45b26c937") 
+
+(property "Reference" "D11" (at 53.3665 66.0704 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 50.8137 66.062 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 44.45 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 44.45 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 44.45 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "272e5336-9f26-49ef-b00d-f42d97c59ca1")) (pin "2" (uuid "8131f334-b519-40e8-91c3-6ca890b397be")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D11") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 62.23 55.88 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "3bcdc742-6c67-4983-b99f-84a21371fc84") 
+
+(property "Reference" "D12" (at 71.1465 66.0704 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 68.5937 66.062 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 62.23 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 62.23 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 62.23 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c8a95f53-ecc9-49a5-9fc5-115d81def4d7")) (pin "2" (uuid "bd2759ae-e30e-4a1b-b3ad-7da5bb5e9826")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D12") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 97.79 55.88 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "dc163f63-a000-435c-a068-16fac86dce46") 
+
+(property "Reference" "D13" (at 106.7065 66.0704 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 104.1537 66.062 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 97.79 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 97.79 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 97.79 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "05bd003f-ee72-41ad-be0b-169aa193704a")) (pin "2" (uuid "651ae52e-d152-49d7-9ac0-de5995868701")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D13") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 115.57 55.88 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "5ca12efb-ac63-4ce1-8368-b02f4f914cd4") 
+
+(property "Reference" "D14" (at 124.4865 66.0704 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 121.9337 66.062 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 115.57 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 115.57 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 115.57 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e3d043db-b51b-4db9-99fd-d83202e1bda8")) (pin "2" (uuid "7e662921-8fd7-4807-909d-00207616e39d")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D14") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 133.35 55.88 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "39c02417-6ab1-4001-a30e-34622e5b616d") 
+
+(property "Reference" "D15" (at 142.2665 66.0704 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 139.7137 66.062 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 133.35 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 133.35 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 133.35 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f06651af-5b69-4870-a848-f0f413d14a4e")) (pin "2" (uuid "e67e5b8c-8840-44ac-aa6b-54f95f4cb974")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D15") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 44.45 71.12 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "4494deff-d47e-46a4-af9c-8a317bbb866b") 
+
+(property "Reference" "D16" (at 53.3665 81.3104 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 50.8137 81.302 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 44.45 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 44.45 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 44.45 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b3f98987-61e3-4264-8bb0-65d64d6eb8be")) (pin "2" (uuid "5fbf436f-187e-49d8-a263-fbd19c618800")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D16") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 62.23 71.12 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "09964756-0b33-4d2d-b30e-a7cbaff32c02") 
+
+(property "Reference" "D17" (at 71.1465 81.3104 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 68.5937 81.302 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 62.23 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 62.23 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 62.23 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "448bd09a-b305-4bd7-ab12-387794a2024b")) (pin "2" (uuid "eeec28cc-fe75-424e-9760-fdbb887a4c7e")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D17") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 80.01 71.12 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "255ed02e-b3aa-4725-8b81-c3723f16b264") 
+
+(property "Reference" "D18" (at 88.9265 81.3104 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 86.3737 81.302 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 80.01 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 80.01 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 80.01 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "514761a8-6ef6-4c83-839d-9027569b0a16")) (pin "2" (uuid "4c08a7e9-5d9d-43e4-aefc-0eaf33651e55")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D18") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 115.57 71.12 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "0af7e412-1dd3-4402-968a-5d805df302be") 
+
+(property "Reference" "D19" (at 124.4865 81.3104 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 121.9337 81.302 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 115.57 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 115.57 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 115.57 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "80491a1b-c7dd-4cd7-b289-d19c72216310")) (pin "2" (uuid "81639e2c-9701-4e65-9240-916c9af14bf8")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D19") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 133.35 71.12 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "76381c16-9989-48e6-8db1-375d78f3df5f") 
+
+(property "Reference" "D20" (at 142.2665 81.3104 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 139.7137 81.302 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 133.35 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 133.35 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 133.35 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "0bd6644c-eef7-46fa-9322-92ada7ea1dad")) (pin "2" (uuid "5efffd04-a9d9-4e9e-8a1c-22c1343ac721")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D20") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 44.45 86.36 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "aab8483c-1f62-423b-804a-c15ee698a532") 
+
+(property "Reference" "D21" (at 53.3665 96.5504 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 50.8137 96.542 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 44.45 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 44.45 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 44.45 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5bc050cc-a8e4-472e-8578-1ed620ef39c8")) (pin "2" (uuid "fe7fc00d-1e92-4232-9c77-b06509e16c6b")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D21") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 62.23 86.36 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "63f96251-97a3-4f4d-b88f-5d4f007503c6") 
+
+(property "Reference" "D22" (at 71.1465 96.5504 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 68.5937 96.542 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 62.23 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 62.23 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 62.23 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c87e4c08-0b3d-42d4-9c6e-8798bbb7d1e2")) (pin "2" (uuid "9dbd1abf-ad64-42a9-a072-a10de412d061")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D22") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 80.01 86.36 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "e7ff887e-4d74-4b73-b722-9a92d8c4df97") 
+
+(property "Reference" "D23" (at 88.9265 96.5504 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 86.3737 96.542 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 80.01 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 80.01 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 80.01 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "3abb7c36-7b05-4d18-b87c-13792bc6d1ec")) (pin "2" (uuid "0e1fc981-dba8-4858-a46f-8e6d897c83d6")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D23") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 97.79 86.36 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "e46731b9-89bf-4212-9fa0-f3dfd2a95cbf") 
+
+(property "Reference" "D24" (at 106.7065 96.5504 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 104.1537 96.542 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 97.79 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 97.79 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 97.79 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "da51c4fd-4b90-4b55-9ccb-d9bf49bc594e")) (pin "2" (uuid "34d693e0-86ac-4bb5-aa38-b8dfb9010382")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D24") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 133.35 86.36 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "df2636ee-14f7-42b0-b3f4-ab710e5f488a") 
+
+(property "Reference" "D25" (at 142.2665 96.5504 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 139.7137 96.542 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 133.35 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 133.35 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 133.35 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e3fd2f9d-5967-4715-8574-3bf09dfae486")) (pin "2" (uuid "59a58abf-d672-44af-9fc8-9ab6f41fd4a8")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D25") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 44.45 101.6 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "2b549da9-ec87-42ea-91a4-56a71d44f319") 
+
+(property "Reference" "D26" (at 53.3665 111.7904 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 50.8137 111.782 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 44.45 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 44.45 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 44.45 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "2e08f484-d8b1-4d5b-a195-2803a8dd631e")) (pin "2" (uuid "e89a174f-7863-40b5-9262-7ea9ae1aec0c")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D26") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 62.23 101.6 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "25d5fd8d-6f78-40e8-b419-00ac0922fabb") 
+
+(property "Reference" "D27" (at 71.1465 111.7904 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 68.5937 111.782 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 62.23 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 62.23 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 62.23 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d0ea01a8-7b07-40f8-b248-7baaebeaa9bb")) (pin "2" (uuid "abe7b07f-3d73-4984-aae1-90b98562288d")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D27") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 80.01 101.6 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "59ba9f41-00fd-45b9-a891-dc00f9aa2c9c") 
+
+(property "Reference" "D28" (at 88.9265 111.7904 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 86.3737 111.782 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 80.01 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 80.01 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 80.01 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e1ad1d03-da3f-4a90-bb4a-0082f72ab181")) (pin "2" (uuid "c99e6845-c5b9-4158-99e0-9afb59abaf12")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D28") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 97.79 101.6 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "67ae2061-e4a4-446f-99f9-dba7b813f099") 
+
+(property "Reference" "D29" (at 106.7065 111.7904 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 104.1537 111.782 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 97.79 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 97.79 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 97.79 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "b1244bcc-5de1-4068-9e0c-369e145a62ac")) (pin "2" (uuid "7d473e8f-ac3d-40da-91f4-39e2426c6d2c")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D29") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV") (at 115.57 101.6 270) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "a804b706-b173-4572-a6fc-b52fc6fc5bb5") 
+
+(property "Reference" "D30" (at 124.4865 111.7904 0) (effects (font (size 1.7833 1.5158)) (justify left bottom))) 
+
+(property "Value" "0201_2.4V_20mA" (at 121.9337 111.782 0) (effects (font (size 1.7818 1.5145)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE" (at 115.57 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 115.57 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "" (at 115.57 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d399410e-67c2-4edb-84c6-e1eedbe8012a")) (pin "2" (uuid "d2259b12-0a8f-45da-95e8-60c98642b589")) (instances (project "" (path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62" (reference "D30") (unit 1))))) 
+
+(wire (pts 
+
+(xy 62.23 25.4) 
+
+(xy 59.69 25.4)) (stroke (width 0) (type default)) (uuid 1c38aa74-1c60-4e46-9ea6-173e9809cbd5)) 
+
+(wire (pts 
+
+(xy 62.23 10.16) 
+
+(xy 64.77 10.16)) (stroke (width 0) (type default)) (uuid dc607b2e-fc88-4d46-ae26-fbec2fb1a2f2)) 
+
+(wire (pts 
+
+(xy 64.77 10.16) 
+
+(xy 64.77 2.54)) (stroke (width 0) (type default)) (uuid 558f882d-20f7-48c2-ae38-4dbc41ff6e46)) 
+
+(wire (pts 
+
+(xy 80.01 25.4) 
+
+(xy 77.47 25.4)) (stroke (width 0) (type default)) (uuid 109709bd-aac4-424b-8fd4-515f6084ea5f)) 
+
+(wire (pts 
+
+(xy 80.01 10.16) 
+
+(xy 82.55 10.16)) (stroke (width 0) (type default)) (uuid d837bb07-d9da-4c29-af6a-2d61c81970c3)) 
+
+(wire (pts 
+
+(xy 82.55 10.16) 
+
+(xy 82.55 2.54)) (stroke (width 0) (type default)) (uuid 9b34070e-c264-494c-9498-372978f78135)) 
+
+(wire (pts 
+
+(xy 97.79 25.4) 
+
+(xy 95.25 25.4)) (stroke (width 0) (type default)) (uuid 2c906c31-63ce-455e-8801-e8ae1412358f)) 
+
+(wire (pts 
+
+(xy 97.79 10.16) 
+
+(xy 100.33 10.16)) (stroke (width 0) (type default)) (uuid 69db34ec-b22b-40c7-ad3e-b4e2eae2d5c6)) 
+
+(wire (pts 
+
+(xy 100.33 10.16) 
+
+(xy 100.33 2.54)) (stroke (width 0) (type default)) (uuid 6fb724e3-c6fc-4df1-aff9-c55316483c98)) 
+
+(wire (pts 
+
+(xy 115.57 25.4) 
+
+(xy 113.03 25.4)) (stroke (width 0) (type default)) (uuid 0497736d-c3ec-4a15-bad3-9e75fafd9134)) 
+
+(wire (pts 
+
+(xy 115.57 10.16) 
+
+(xy 118.11 10.16)) (stroke (width 0) (type default)) (uuid 34663d79-8525-40bb-9cde-aceaf651486b)) 
+
+(wire (pts 
+
+(xy 118.11 10.16) 
+
+(xy 118.11 2.54)) (stroke (width 0) (type default)) (uuid 2dfb36a7-a420-4153-905e-5a7319337843)) 
+
+(wire (pts 
+
+(xy 133.35 25.4) 
+
+(xy 130.81 25.4)) (stroke (width 0) (type default)) (uuid e651732c-cbdc-4dd9-aa55-467653e6315c)) 
+
+(wire (pts 
+
+(xy 133.35 10.16) 
+
+(xy 135.89 10.16)) (stroke (width 0) (type default)) (uuid a845997f-2933-4344-aaf7-fbd2dd700d7c)) 
+
+(wire (pts 
+
+(xy 135.89 10.16) 
+
+(xy 135.89 2.54)) (stroke (width 0) (type default)) (uuid 514f91c8-1d5e-4af2-af45-7d5c75255fe8)) 
+
+(wire (pts 
+
+(xy 44.45 40.64) 
+
+(xy 41.91 40.64)) (stroke (width 0) (type default)) (uuid 9536f98c-f9ba-43ac-8a88-a8496bfbb39a)) 
+
+(wire (pts 
+
+(xy 44.45 25.4) 
+
+(xy 46.99 25.4)) (stroke (width 0) (type default)) (uuid e6a8381a-4e32-4f68-bb30-fe4e1178cd0b)) 
+
+(wire (pts 
+
+(xy 46.99 25.4) 
+
+(xy 46.99 17.78)) (stroke (width 0) (type default)) (uuid 38622bdb-4eb0-43e5-9012-2b0f7a236d07)) 
+
+(wire (pts 
+
+(xy 80.01 40.64) 
+
+(xy 77.47 40.64)) (stroke (width 0) (type default)) (uuid 017aa279-a459-4202-9ea1-2621610e5db8)) 
+
+(wire (pts 
+
+(xy 80.01 25.4) 
+
+(xy 82.55 25.4)) (stroke (width 0) (type default)) (uuid 2e94b428-12c3-43c5-b8dc-af029bf456be)) 
+
+(wire (pts 
+
+(xy 82.55 25.4) 
+
+(xy 82.55 17.78)) (stroke (width 0) (type default)) (uuid 695abcd0-734c-4727-bec0-ea38ed177457)) 
+
+(wire (pts 
+
+(xy 97.79 40.64) 
+
+(xy 95.25 40.64)) (stroke (width 0) (type default)) (uuid 4c39ab64-ca29-4c14-80bf-ab67c8bc606e)) 
+
+(wire (pts 
+
+(xy 97.79 25.4) 
+
+(xy 100.33 25.4)) (stroke (width 0) (type default)) (uuid 3dec297b-6e32-4f6a-9366-9de13d2588fb)) 
+
+(wire (pts 
+
+(xy 100.33 25.4) 
+
+(xy 100.33 17.78)) (stroke (width 0) (type default)) (uuid 37a4d5ab-ea77-4c65-91df-84da2f89f7bd)) 
+
+(wire (pts 
+
+(xy 115.57 40.64) 
+
+(xy 113.03 40.64)) (stroke (width 0) (type default)) (uuid 648899bf-eddf-485a-84cc-48d741daef43)) 
+
+(wire (pts 
+
+(xy 115.57 25.4) 
+
+(xy 118.11 25.4)) (stroke (width 0) (type default)) (uuid 99f3b46e-f0e8-40c9-9422-5efdcf65a343)) 
+
+(wire (pts 
+
+(xy 118.11 25.4) 
+
+(xy 118.11 17.78)) (stroke (width 0) (type default)) (uuid 5ce59e50-e842-4f65-a856-17a59da15375)) 
+
+(wire (pts 
+
+(xy 133.35 40.64) 
+
+(xy 130.81 40.64)) (stroke (width 0) (type default)) (uuid 62fa2581-0923-4d62-8c6d-eae3052a07b0)) 
+
+(wire (pts 
+
+(xy 133.35 25.4) 
+
+(xy 135.89 25.4)) (stroke (width 0) (type default)) (uuid 9eb7ed56-d1a0-4620-b7ab-96cc7cdffe5f)) 
+
+(wire (pts 
+
+(xy 135.89 25.4) 
+
+(xy 135.89 17.78)) (stroke (width 0) (type default)) (uuid 30923d27-7c0a-4e33-8c3c-ab6b73ad27c1)) 
+
+(wire (pts 
+
+(xy 44.45 55.88) 
+
+(xy 41.91 55.88)) (stroke (width 0) (type default)) (uuid 9f4a1b8d-3f47-4e80-a62e-b2f37969f738)) 
+
+(wire (pts 
+
+(xy 44.45 40.64) 
+
+(xy 46.99 40.64)) (stroke (width 0) (type default)) (uuid c0b3065f-bdfd-4685-88c8-582005e0b05b)) 
+
+(wire (pts 
+
+(xy 46.99 40.64) 
+
+(xy 46.99 33.02)) (stroke (width 0) (type default)) (uuid 7cd54fb5-4645-4ced-8be2-49146906e633)) 
+
+(wire (pts 
+
+(xy 62.23 55.88) 
+
+(xy 59.69 55.88)) (stroke (width 0) (type default)) (uuid bb9f9e96-8ad9-4a44-8ab4-8ff54f74d767)) 
+
+(wire (pts 
+
+(xy 62.23 40.64) 
+
+(xy 64.77 40.64)) (stroke (width 0) (type default)) (uuid 447860fd-f3b1-4d1b-89e3-fb5473a2c274)) 
+
+(wire (pts 
+
+(xy 64.77 40.64) 
+
+(xy 64.77 33.02)) (stroke (width 0) (type default)) (uuid 5b3118ed-5cd7-4df2-be2a-6e30d87bd1c2)) 
+
+(wire (pts 
+
+(xy 97.79 55.88) 
+
+(xy 95.25 55.88)) (stroke (width 0) (type default)) (uuid 29bf23c4-e732-449d-be54-ad30d77adcc1)) 
+
+(wire (pts 
+
+(xy 97.79 40.64) 
+
+(xy 100.33 40.64)) (stroke (width 0) (type default)) (uuid bd4b22ad-fffe-4cb2-989e-d06448a2052b)) 
+
+(wire (pts 
+
+(xy 100.33 40.64) 
+
+(xy 100.33 33.02)) (stroke (width 0) (type default)) (uuid dc3cfc7b-ef8a-45a7-ba4e-76550bf9c45e)) 
+
+(wire (pts 
+
+(xy 115.57 55.88) 
+
+(xy 113.03 55.88)) (stroke (width 0) (type default)) (uuid c1747d42-fb18-4ff5-92d1-9d3bc7df4967)) 
+
+(wire (pts 
+
+(xy 115.57 40.64) 
+
+(xy 118.11 40.64)) (stroke (width 0) (type default)) (uuid ac158a6b-141d-452e-9205-36f3b3589ae8)) 
+
+(wire (pts 
+
+(xy 118.11 40.64) 
+
+(xy 118.11 33.02)) (stroke (width 0) (type default)) (uuid af36c719-9fac-4834-941a-ac8b7cb1fe43)) 
+
+(wire (pts 
+
+(xy 133.35 55.88) 
+
+(xy 130.81 55.88)) (stroke (width 0) (type default)) (uuid cba060b2-32ec-4058-be1e-e1266fc6561b)) 
+
+(wire (pts 
+
+(xy 133.35 40.64) 
+
+(xy 135.89 40.64)) (stroke (width 0) (type default)) (uuid 407f4e2d-5557-455b-b9b0-60fd35fa289d)) 
+
+(wire (pts 
+
+(xy 135.89 40.64) 
+
+(xy 135.89 33.02)) (stroke (width 0) (type default)) (uuid fc865990-bf78-4aa1-93f4-1013a00b8b4c)) 
+
+(wire (pts 
+
+(xy 44.45 71.12) 
+
+(xy 41.91 71.12)) (stroke (width 0) (type default)) (uuid b730563a-95f7-480e-a789-36ae2bf4fdc2)) 
+
+(wire (pts 
+
+(xy 44.45 55.88) 
+
+(xy 46.99 55.88)) (stroke (width 0) (type default)) (uuid 63a5bf44-fea7-4b1a-8f56-95bfccc7f858)) 
+
+(wire (pts 
+
+(xy 46.99 55.88) 
+
+(xy 46.99 48.26)) (stroke (width 0) (type default)) (uuid 4b5fd3a3-b196-43eb-9502-14129ee20b62)) 
+
+(wire (pts 
+
+(xy 62.23 71.12) 
+
+(xy 59.69 71.12)) (stroke (width 0) (type default)) (uuid 41fbb8fd-55cd-4249-84f2-b90c30e59fa4)) 
+
+(wire (pts 
+
+(xy 62.23 55.88) 
+
+(xy 64.77 55.88)) (stroke (width 0) (type default)) (uuid 1cbb5859-b3e4-441a-b5be-29374569f974)) 
+
+(wire (pts 
+
+(xy 64.77 55.88) 
+
+(xy 64.77 48.26)) (stroke (width 0) (type default)) (uuid 2e4e7dd0-e2fd-4240-bb19-2221d0551bb6)) 
+
+(wire (pts 
+
+(xy 80.01 71.12) 
+
+(xy 77.47 71.12)) (stroke (width 0) (type default)) (uuid 664ee634-7aba-448e-998a-e6c93f81923a)) 
+
+(wire (pts 
+
+(xy 80.01 55.88) 
+
+(xy 82.55 55.88)) (stroke (width 0) (type default)) (uuid e48b4572-c0cc-48a9-b14a-d8ff08717db2)) 
+
+(wire (pts 
+
+(xy 82.55 55.88) 
+
+(xy 82.55 48.26)) (stroke (width 0) (type default)) (uuid 93a41183-a9be-4c9f-9b1e-0614a4cfeafa)) 
+
+(wire (pts 
+
+(xy 115.57 71.12) 
+
+(xy 113.03 71.12)) (stroke (width 0) (type default)) (uuid 9a4facaf-bbfe-44c6-9afa-a8db288f355b)) 
+
+(wire (pts 
+
+(xy 115.57 55.88) 
+
+(xy 118.11 55.88)) (stroke (width 0) (type default)) (uuid 298a3469-33ea-4984-8982-d6ce824ed06a)) 
+
+(wire (pts 
+
+(xy 118.11 55.88) 
+
+(xy 118.11 48.26)) (stroke (width 0) (type default)) (uuid 59f93330-79bf-40b5-a691-3a32ec12d7e0)) 
+
+(wire (pts 
+
+(xy 133.35 71.12) 
+
+(xy 130.81 71.12)) (stroke (width 0) (type default)) (uuid e80f9601-5510-4ae8-a0bb-b1e11bf11dce)) 
+
+(wire (pts 
+
+(xy 133.35 55.88) 
+
+(xy 135.89 55.88)) (stroke (width 0) (type default)) (uuid 7fb99900-9861-4ca1-b91d-7ed5e014b4da)) 
+
+(wire (pts 
+
+(xy 135.89 55.88) 
+
+(xy 135.89 48.26)) (stroke (width 0) (type default)) (uuid 4f542043-7c3d-4731-b2a3-a77e4d6888fa)) 
+
+(wire (pts 
+
+(xy 44.45 86.36) 
+
+(xy 41.91 86.36)) (stroke (width 0) (type default)) (uuid 583717f3-4247-448a-a88a-e2fa6b2993d8)) 
+
+(wire (pts 
+
+(xy 44.45 71.12) 
+
+(xy 46.99 71.12)) (stroke (width 0) (type default)) (uuid 50439e44-06a1-4012-9734-81058eb3e2ed)) 
+
+(wire (pts 
+
+(xy 46.99 71.12) 
+
+(xy 46.99 63.5)) (stroke (width 0) (type default)) (uuid f65a71be-0522-46bf-93a0-f5585e429807)) 
+
+(wire (pts 
+
+(xy 62.23 86.36) 
+
+(xy 59.69 86.36)) (stroke (width 0) (type default)) (uuid 3c3991d3-f98e-4780-969d-15d092f9958e)) 
+
+(wire (pts 
+
+(xy 62.23 71.12) 
+
+(xy 64.77 71.12)) (stroke (width 0) (type default)) (uuid 1e508c0c-513a-4c93-8d39-3679a8507577)) 
+
+(wire (pts 
+
+(xy 64.77 71.12) 
+
+(xy 64.77 63.5)) (stroke (width 0) (type default)) (uuid b93fc406-4ce9-4612-8d04-7ad87cdb6a6d)) 
+
+(wire (pts 
+
+(xy 80.01 86.36) 
+
+(xy 77.47 86.36)) (stroke (width 0) (type default)) (uuid 3890e147-4d79-4cf3-8efd-0ab6ec94e31d)) 
+
+(wire (pts 
+
+(xy 80.01 71.12) 
+
+(xy 82.55 71.12)) (stroke (width 0) (type default)) (uuid 1288e4b2-b47c-4f1a-a2b9-1b155ae1db6a)) 
+
+(wire (pts 
+
+(xy 82.55 71.12) 
+
+(xy 82.55 63.5)) (stroke (width 0) (type default)) (uuid ed5211e0-e710-4201-9239-7067586e3c00)) 
+
+(wire (pts 
+
+(xy 97.79 86.36) 
+
+(xy 95.25 86.36)) (stroke (width 0) (type default)) (uuid 97a5cf20-7bc9-488a-9361-96a3c6d5dfde)) 
+
+(wire (pts 
+
+(xy 97.79 71.12) 
+
+(xy 100.33 71.12)) (stroke (width 0) (type default)) (uuid 64709411-1559-4de1-bc00-2cd297965240)) 
+
+(wire (pts 
+
+(xy 100.33 71.12) 
+
+(xy 100.33 63.5)) (stroke (width 0) (type default)) (uuid 58f573a7-a792-4393-8b13-099ba42de3e9)) 
+
+(wire (pts 
+
+(xy 133.35 86.36) 
+
+(xy 130.81 86.36)) (stroke (width 0) (type default)) (uuid 2c8e0ba3-dc4b-4db2-b7b5-7b9a9409a4ec)) 
+
+(wire (pts 
+
+(xy 133.35 71.12) 
+
+(xy 135.89 71.12)) (stroke (width 0) (type default)) (uuid 474b2222-0066-4c43-acb6-142112b592e5)) 
+
+(wire (pts 
+
+(xy 135.89 71.12) 
+
+(xy 135.89 63.5)) (stroke (width 0) (type default)) (uuid 571cd8bc-6f9f-4432-811b-89e4199f16ac)) 
+
+(wire (pts 
+
+(xy 44.45 101.6) 
+
+(xy 41.91 101.6)) (stroke (width 0) (type default)) (uuid 3ca9ef26-ed5c-4a67-ae1a-5c034a66f836)) 
+
+(wire (pts 
+
+(xy 44.45 86.36) 
+
+(xy 46.99 86.36)) (stroke (width 0) (type default)) (uuid a6d7b516-384d-49c2-927e-a90fb5be1ac5)) 
+
+(wire (pts 
+
+(xy 46.99 86.36) 
+
+(xy 46.99 78.74)) (stroke (width 0) (type default)) (uuid 8dbb83f7-3449-40a1-b592-f42980acaca6)) 
+
+(wire (pts 
+
+(xy 62.23 101.6) 
+
+(xy 59.69 101.6)) (stroke (width 0) (type default)) (uuid 4208b63e-83df-4522-9b4e-2e3df0140678)) 
+
+(wire (pts 
+
+(xy 62.23 86.36) 
+
+(xy 64.77 86.36)) (stroke (width 0) (type default)) (uuid f4fb1d5d-5e1d-4e61-8f5e-9955c3cfa978)) 
+
+(wire (pts 
+
+(xy 64.77 86.36) 
+
+(xy 64.77 78.74)) (stroke (width 0) (type default)) (uuid a3dc3a13-a2cc-4633-9dd0-d1f038ea9c38)) 
+
+(wire (pts 
+
+(xy 80.01 101.6) 
+
+(xy 77.47 101.6)) (stroke (width 0) (type default)) (uuid 0188edb5-5b6a-4d2a-8efe-3998d9107723)) 
+
+(wire (pts 
+
+(xy 80.01 86.36) 
+
+(xy 82.55 86.36)) (stroke (width 0) (type default)) (uuid 3612e7e8-94ac-4a6d-81c5-95688775060e)) 
+
+(wire (pts 
+
+(xy 82.55 86.36) 
+
+(xy 82.55 78.74)) (stroke (width 0) (type default)) (uuid 0f5816af-e678-450f-a43b-07d28cf9f27d)) 
+
+(wire (pts 
+
+(xy 97.79 101.6) 
+
+(xy 95.25 101.6)) (stroke (width 0) (type default)) (uuid e3ccfb3a-a507-41c8-ab51-199a23049cf6)) 
+
+(wire (pts 
+
+(xy 97.79 86.36) 
+
+(xy 100.33 86.36)) (stroke (width 0) (type default)) (uuid 08d82bc0-eee7-4583-ba23-6e7d81e09a47)) 
+
+(wire (pts 
+
+(xy 100.33 86.36) 
+
+(xy 100.33 78.74)) (stroke (width 0) (type default)) (uuid 8717db10-d261-476d-b79b-9b252f6bcaea)) 
+
+(wire (pts 
+
+(xy 115.57 101.6) 
+
+(xy 113.03 101.6)) (stroke (width 0) (type default)) (uuid 779efcd1-910c-48c6-9a76-32e884aa24a3)) 
+
+(wire (pts 
+
+(xy 115.57 86.36) 
+
+(xy 118.11 86.36)) (stroke (width 0) (type default)) (uuid d5d53891-1b0c-4b40-bd38-37aedc1c635d)) 
+
+(wire (pts 
+
+(xy 118.11 86.36) 
+
+(xy 118.11 78.74)) (stroke (width 0) (type default)) (uuid 896ec487-e480-4bb2-891f-9c30aa57f5ab)) 
+
+(wire (pts 
+
+(xy 135.89 2.54) 
+
+(xy 54.61 2.54)) (stroke (width 0) (type default)) (uuid e4cf2722-3751-48a7-8606-62d4bdec34fd)) 
+
+(junction (at 64.77 2.54) (diameter 0) (color 0 0 0 0) (uuid 401748c1-bc85-4f90-9bf2-7d6b1515a5db)) 
+
+(junction (at 82.55 2.54) (diameter 0) (color 0 0 0 0) (uuid 51dafb74-db8a-4d39-91db-4493e8a5b5f6)) 
+
+(junction (at 100.33 2.54) (diameter 0) (color 0 0 0 0) (uuid 765050e5-4df9-4250-9bec-956a92092069)) 
+
+(junction (at 118.11 2.54) (diameter 0) (color 0 0 0 0) (uuid 45b45065-0a20-492c-a3ff-d50d5cf513be)) 
+
+(junction (at 135.89 2.54) (diameter 0) (color 0 0 0 0) (uuid 1a4b2b48-270f-46eb-8a7e-b483e572731a)) 
+
+(global_label "CHRLY_1" (shape input) (at 54.61 2.54 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid a6f32f40-c83c-49eb-a332-efb06572adf8) 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 48.3591 2.54 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(wire (pts 
+
+(xy 135.89 17.78) 
+
+(xy 36.83 17.78)) (stroke (width 0) (type default)) (uuid 29b601f5-9685-4f2e-8e21-2916682ccb70)) 
+
+(junction (at 46.99 17.78) (diameter 0) (color 0 0 0 0) (uuid 3524310d-193d-482f-9bd0-84102acbc2de)) 
+
+(junction (at 82.55 17.78) (diameter 0) (color 0 0 0 0) (uuid 05c909e1-1c56-4cd6-be3a-d994f8dd3729)) 
+
+(junction (at 100.33 17.78) (diameter 0) (color 0 0 0 0) (uuid 56fa1c52-87dc-42ff-bffe-10636e7f42f2)) 
+
+(junction (at 118.11 17.78) (diameter 0) (color 0 0 0 0) (uuid c8d112eb-f378-4108-b923-b372f0874045)) 
+
+(junction (at 135.89 17.78) (diameter 0) (color 0 0 0 0) (uuid 3873b165-df82-434a-9a94-539bd3f234ba)) 
+
+(global_label "CHRLY_2" (shape input) (at 36.83 17.78 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid 5afd5c38-f92b-4f91-8a22-f4ad22ce07e8) 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 30.5791 17.78 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(wire (pts 
+
+(xy 135.89 33.02) 
+
+(xy 36.83 33.02)) (stroke (width 0) (type default)) (uuid 5639684f-6185-45a2-9225-d40ffaee146d)) 
+
+(junction (at 46.99 33.02) (diameter 0) (color 0 0 0 0) (uuid f7508bff-2277-4230-971d-d322aa32863e)) 
+
+(junction (at 64.77 33.02) (diameter 0) (color 0 0 0 0) (uuid d2b6f7e9-86b3-4b36-8273-a3724d2be6d1)) 
+
+(junction (at 100.33 33.02) (diameter 0) (color 0 0 0 0) (uuid 306863d9-9ffc-4ea5-824a-0bcd250b1b4b)) 
+
+(junction (at 118.11 33.02) (diameter 0) (color 0 0 0 0) (uuid f2e95b1c-48f1-412a-aa88-ab4b35019fad)) 
+
+(junction (at 135.89 33.02) (diameter 0) (color 0 0 0 0) (uuid 571f3582-2fa9-4ee9-906e-3f3e178f59c3)) 
+
+(global_label "CHRLY_3" (shape input) (at 36.83 33.02 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid b3b4d63b-6aa5-43c8-a018-3654b36913a5) 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 30.5791 33.02 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(wire (pts 
+
+(xy 135.89 48.26) 
+
+(xy 36.83 48.26)) (stroke (width 0) (type default)) (uuid 6368567d-c218-4ad9-bf55-fd9378260094)) 
+
+(junction (at 46.99 48.26) (diameter 0) (color 0 0 0 0) (uuid d182c632-d8fb-4243-a405-b9e99b7ff191)) 
+
+(junction (at 64.77 48.26) (diameter 0) (color 0 0 0 0) (uuid c4cfa638-a27e-4956-8aed-619cd2111b7c)) 
+
+(junction (at 82.55 48.26) (diameter 0) (color 0 0 0 0) (uuid f687cb78-e08f-4e6f-bdb2-4832627b58e8)) 
+
+(junction (at 118.11 48.26) (diameter 0) (color 0 0 0 0) (uuid 78a7001b-b65e-48bd-880b-9041ae7e3778)) 
+
+(junction (at 135.89 48.26) (diameter 0) (color 0 0 0 0) (uuid cd4f5fd1-47bc-46f0-a7bb-5e002e9ee907)) 
+
+(global_label "CHRLY_4" (shape input) (at 36.83 48.26 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid 4f36686b-fafc-47b0-a273-1446ab08f7cf) 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 30.5791 48.26 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(wire (pts 
+
+(xy 135.89 63.5) 
+
+(xy 36.83 63.5)) (stroke (width 0) (type default)) (uuid bb7ae30e-cda1-4709-a906-c23e0e58533c)) 
+
+(junction (at 46.99 63.5) (diameter 0) (color 0 0 0 0) (uuid 7b07da56-402e-4f65-bb38-b4faec5757ad)) 
+
+(junction (at 64.77 63.5) (diameter 0) (color 0 0 0 0) (uuid 66ddaa87-25ac-4f17-9f81-ef9690856b00)) 
+
+(junction (at 82.55 63.5) (diameter 0) (color 0 0 0 0) (uuid 23fc6644-e3ec-412f-9e49-f82fbfc18db9)) 
+
+(junction (at 100.33 63.5) (diameter 0) (color 0 0 0 0) (uuid 5c390dfe-232a-4bef-9a7e-2bb9137a09e8)) 
+
+(junction (at 135.89 63.5) (diameter 0) (color 0 0 0 0) (uuid fc2a13d1-5f1e-406e-b2c1-0d99d775adb8)) 
+
+(global_label "CHRLY_5" (shape input) (at 36.83 63.5 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid 29945251-3daf-4494-99b2-d658e175884c) 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 30.5791 63.5 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(wire (pts 
+
+(xy 118.11 78.74) 
+
+(xy 36.83 78.74)) (stroke (width 0) (type default)) (uuid 6861b39f-94b2-4b1b-a2fa-9c446ea2d670)) 
+
+(junction (at 46.99 78.74) (diameter 0) (color 0 0 0 0) (uuid 7f5e8098-becd-4eb2-a31b-131047e9f51f)) 
+
+(junction (at 64.77 78.74) (diameter 0) (color 0 0 0 0) (uuid 33126f75-d4d1-4d69-8d03-fc63129fc864)) 
+
+(junction (at 82.55 78.74) (diameter 0) (color 0 0 0 0) (uuid f8e4f301-c552-45e2-a31c-161976093045)) 
+
+(junction (at 100.33 78.74) (diameter 0) (color 0 0 0 0) (uuid 3b826a0a-a9ef-4346-b4b5-ac5be4e4a181)) 
+
+(junction (at 118.11 78.74) (diameter 0) (color 0 0 0 0) (uuid 1f156c4b-8baa-40c9-81f3-27dbb9cec1da)) 
+
+(global_label "CHRLY_6" (shape input) (at 36.83 78.74 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid e3b1b158-6c69-4b2f-948a-c27f78c2b005) 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 30.5791 78.74 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(wire (pts 
+
+(xy 41.91 40.64) 
+
+(xy 41.91 111.76)) (stroke (width 0.4) (type dot)) (uuid ffd1cc04-dbec-4ae5-b832-5c1e573a984c)) 
+
+(junction (at 41.91 40.64) (diameter 0) (color 0 0 0 0) (uuid 40e54866-a8d1-41de-a7a3-1d58e79be741)) 
+
+(junction (at 41.91 55.88) (diameter 0) (color 0 0 0 0) (uuid d391c377-fa91-4e56-8fd1-b32745be41b3)) 
+
+(junction (at 41.91 71.12) (diameter 0) (color 0 0 0 0) (uuid 8fca27c0-1e10-45f8-9347-78d011b6161b)) 
+
+(junction (at 41.91 86.36) (diameter 0) (color 0 0 0 0) (uuid 9e90c631-fd55-48c6-8534-4047d25ac7ec)) 
+
+(junction (at 41.91 101.6) (diameter 0) (color 0 0 0 0) (uuid ec48a139-746a-42de-9c49-68fbd5100ec5)) 
+
+(wire (pts 
+
+(xy 59.69 25.4) 
+
+(xy 59.69 111.76)) (stroke (width 0.4) (type dot)) (uuid fbc65d31-d763-4659-8617-268e8f26bc5e)) 
+
+(junction (at 59.69 55.88) (diameter 0) (color 0 0 0 0) (uuid e360fad4-1de1-4307-8312-72648afb7302)) 
+
+(junction (at 59.69 71.12) (diameter 0) (color 0 0 0 0) (uuid 4c02db7b-8f1b-4207-b92f-126dd6e36d6a)) 
+
+(junction (at 59.69 86.36) (diameter 0) (color 0 0 0 0) (uuid f9b7ddc9-4f68-4405-839f-e248c18a4fa8)) 
+
+(junction (at 59.69 101.6) (diameter 0) (color 0 0 0 0) (uuid cbf6c2bd-10b9-41a3-863b-7a6740c49834)) 
+
+(wire (pts 
+
+(xy 77.47 25.4) 
+
+(xy 77.47 111.76)) (stroke (width 0.4) (type dot)) (uuid fd3a729a-d99c-4644-a86e-b484ffb46647)) 
+
+(junction (at 77.47 40.64) (diameter 0) (color 0 0 0 0) (uuid c4eb3236-845d-4194-9029-1e5d64fd5ce2)) 
+
+(junction (at 77.47 71.12) (diameter 0) (color 0 0 0 0) (uuid 8e6c0fb4-f588-41dd-8840-4bd17c9cb0e6)) 
+
+(junction (at 77.47 86.36) (diameter 0) (color 0 0 0 0) (uuid b9f2d169-f594-4df4-90af-1fb1cb8b5b96)) 
+
+(junction (at 77.47 101.6) (diameter 0) (color 0 0 0 0) (uuid 3db549ef-116e-4c50-b0bb-7b6cd9ae8dc4)) 
+
+(wire (pts 
+
+(xy 95.25 25.4) 
+
+(xy 95.25 111.76)) (stroke (width 0.4) (type dot)) (uuid 99f42279-3c40-4d67-8805-55acd07d5880)) 
+
+(junction (at 95.25 40.64) (diameter 0) (color 0 0 0 0) (uuid 54e80781-8f51-4b72-bd7c-23dc28613901)) 
+
+(junction (at 95.25 55.88) (diameter 0) (color 0 0 0 0) (uuid f651b811-5af1-4322-8246-c5f9a3cd4aed)) 
+
+(junction (at 95.25 86.36) (diameter 0) (color 0 0 0 0) (uuid da7409ec-f186-45da-9d12-35627ac96bf8)) 
+
+(junction (at 95.25 101.6) (diameter 0) (color 0 0 0 0) (uuid 90996177-a439-4762-b7e6-525d9c93bbb7)) 
+
+(wire (pts 
+
+(xy 113.03 25.4) 
+
+(xy 113.03 111.76)) (stroke (width 0.4) (type dot)) (uuid d1e3b39c-b44e-44f4-88a0-7c4a91513d41)) 
+
+(junction (at 113.03 40.64) (diameter 0) (color 0 0 0 0) (uuid 71e0c689-db4a-41f7-a968-cd6916676985)) 
+
+(junction (at 113.03 55.88) (diameter 0) (color 0 0 0 0) (uuid 0c03b2d0-b252-4ac0-9434-50d4168a8e84)) 
+
+(junction (at 113.03 71.12) (diameter 0) (color 0 0 0 0) (uuid a8a968ba-cd75-4639-9785-4c4d923bf61e)) 
+
+(junction (at 113.03 101.6) (diameter 0) (color 0 0 0 0) (uuid cffd73df-18eb-4a7b-9baf-3fd960079608)) 
+
+(wire (pts 
+
+(xy 130.81 25.4) 
+
+(xy 130.81 96.52)) (stroke (width 0.4) (type dot)) (uuid 19231979-f3fb-414c-9471-961cc04e472d)) 
+
+(junction (at 130.81 40.64) (diameter 0) (color 0 0 0 0) (uuid f6f598e0-0bd6-4edc-88a6-c9c2e808a3fc)) 
+
+(junction (at 130.81 55.88) (diameter 0) (color 0 0 0 0) (uuid 39a0a003-41d3-447c-a3df-21aaea5d4604)) 
+
+(junction (at 130.81 71.12) (diameter 0) (color 0 0 0 0) (uuid 7f2c6413-8035-4cbb-b73d-924752b115fc)) 
+
+(junction (at 130.81 86.36) (diameter 0) (color 0 0 0 0) (uuid 7e7cb079-83e7-4e0e-86df-4450c35ff517)) 
+
+(label "CATH_1" (at 41.91 111.76 90) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid b69b6261-d2d6-4105-a1b3-3abfcbd282f4)) 
+
+(label "CATH_2" (at 59.69 111.76 90) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid dfb8ed6b-80d3-4dd2-9c17-fa0b88d697e6)) 
+
+(label "CATH_3" (at 77.47 111.76 90) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid a32a292e-8391-43a1-a2c0-4669a3d730c3)) 
+
+(label "CATH_4" (at 95.25 111.76 90) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid ccb6644e-46f0-4da9-8209-9b9f5ca22431)) 
+
+(label "CATH_5" (at 113.03 111.76 90) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 9f504420-4def-4295-b9f3-cd7db6bcaa04)) 
+
+(label "CATH_6" (at 130.81 96.52 90) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 69de87bf-630d-4a30-b2d5-9b0d44741451)) 
+
+(label "CATH_1" (at 57.15 2.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 81a6a338-1b81-4d68-9d0d-b5d56aed309f)) 
+
+(label "CATH_2" (at 39.37 17.78 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid d75ba671-c064-4720-bfda-d88445a9a475)) 
+
+(label "CATH_3" (at 39.37 33.02 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid e4eddf25-b4bf-4528-95a2-454a0419cb4b)) 
+
+(label "CATH_4" (at 39.37 48.26 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 87a5c640-f300-4b4b-8567-1899cc708b0f)) 
+
+(label "CATH_5" (at 39.37 63.5 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 67810c0a-fc5c-4667-a2b9-1b8c3108532f)) 
+
+(label "CATH_6" (at 39.37 78.74 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 451bd5cd-c80d-4509-a0f5-3c6dd3464e33)))

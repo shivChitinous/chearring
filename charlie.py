@@ -15,15 +15,17 @@
 '''
 from skip import Symbol, Schematic
 
-def units_to_mm(u:int):
+def units_to_mm(u:int, unitspace:float=2.54):
     return u*unitspace
 
-def to_grid(xunits:int, yunits:int):
-    global unitspace, gridOrigin
+def to_grid(xunits:int, yunits:int, unitspace:float, gridOrigin):
+    '''
+        Convert grid units to mm
+    '''
     return ( (gridOrigin[0]*unitspace)+(xunits*unitspace), 
             (gridOrigin[1]*unitspace)+(yunits*unitspace))
             
-def createLEDs(basedOn:Symbol, numrows:int, numcols:int, charlie:bool, start_ref_count:int=1):
+def createLEDs(basedOn:Symbol, numrows:int, numcols:int, charlie:bool, start_ref_count:int=1, gridOrigin = (0,0), unitspace:float=2.54):
     '''
         Create a grid of closed based on some symbol
     '''
@@ -42,7 +44,7 @@ def createLEDs(basedOn:Symbol, numrows:int, numcols:int, charlie:bool, start_ref
             newD = basedOn.clone()
                 
             # move this component where we want it, on the grid
-            coords = to_grid(col*7, row*6)
+            coords = to_grid(col*7, row*6, unitspace, gridOrigin)
             newD.move(coords[0] - 1.27, coords[1])
             
             # set it's reference (all of em!)
@@ -60,13 +62,13 @@ def createLEDs(basedOn:Symbol, numrows:int, numcols:int, charlie:bool, start_ref
 def createAndWireLEDs(sch:Schematic, basedOn:Symbol, 
                       numrows:int, numcols:int, 
                       charlie:bool,
-                      start_ref_count:int=1):
+                      start_ref_count:int=1, gridOrigin = (0,0), unitspace:float=2.54):
     '''
         Get the grid of cloned diodes, and wire them up, with junctions and labels.
     
     '''
     
-    led_table = createLEDs(basedOn, numrows, numcols, charlie, start_ref_count)
+    led_table = createLEDs(basedOn, numrows, numcols, charlie, start_ref_count, gridOrigin, unitspace)
     row_label_prefix = 'CHRLY' if charlie else 'ROW'
     # make Ks in columns, As in rows
     an_wires = []
@@ -217,9 +219,9 @@ def createXYGrid(sch:Schematic, basedOn:Symbol,
     
 
 def createCharlieplex(sch:Schematic, basedOn:Symbol, 
-                      numrows:int, numcols:int, start_ref_count:int=1):
+                      numrows:int, numcols:int, start_ref_count:int=1, gridOrigin = (0,0), unitspace:float=2.54):
     
-    column_wires = createAndWireLEDs(sch, basedOn, numrows, numcols, charlie=True, start_ref_count=start_ref_count)
+    column_wires = createAndWireLEDs(sch, basedOn, numrows, numcols, charlie=True, start_ref_count=start_ref_count, gridOrigin=gridOrigin, unitspace=unitspace)
     
     col_count = 0
     for join_wire in column_wires:

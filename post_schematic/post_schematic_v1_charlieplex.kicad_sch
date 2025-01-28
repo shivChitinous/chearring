@@ -1,0 +1,1237 @@
+(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0") (uuid "a2bfafe5-1dd6-425f-943c-a6fc88437e10") (paper "A4") (lib_symbols 
+
+(symbol "pre_schematic_v1-eagle-import:APG0603SEC-E-TT" (exclude_from_sim no) (in_bom yes) (on_board yes) 
+
+(property "Reference" "D1" (at -3.0988 4.4958 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at -3.556 -3.302 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "ki_locked" "" (at 0 0 0) (effects (font (size 1.27 1.27)))) 
+
+(symbol "APG0603SEC-E-TT_1_0" 
+
+(polyline (pts 
+
+(xy -2.54 -1.524) 
+
+(xy 0 0)) (stroke (width 0.254) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.54 0) 
+
+(xy -5.08 0)) (stroke (width 0.1524) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.54 0) 
+
+(xy -2.54 -1.524)) (stroke (width 0.254) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.54 1.524) 
+
+(xy -2.54 0)) (stroke (width 0.254) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.3556 4.0386) 
+
+(xy -2.1336 2.0066)) (stroke (width 0.254) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0 0) 
+
+(xy -2.54 1.524)) (stroke (width 0.254) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0 0) 
+
+(xy 0 -1.524)) (stroke (width 0.254) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0 1.524) 
+
+(xy 0 0)) (stroke (width 0.254) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.889 3.937) 
+
+(xy -0.889 1.905)) (stroke (width 0.254) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 2.54 0) 
+
+(xy 0 0)) (stroke (width 0.1524) (type solid)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.127 3.6195) 
+
+(xy 0.6985 3.1115) 
+
+(xy 1.0795 4.191)) (stroke (width 0.1524) (type solid)) (fill (type outline))) 
+
+(polyline (pts 
+
+(xy -1.143 3.683) 
+
+(xy -0.5715 3.175) 
+
+(xy -0.1905 4.1909) 
+
+(xy -0.1905 4.191)) (stroke (width 0.1524) (type solid)) (fill (type outline))) (pin passive line (at 5.08 0 180) (length 2.54) (name "K" (effects (font (size 0 0)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at -7.62 0 0) (length 2.54) (name "A" (effects (font (size 0 0)))) (number "2" (effects (font (size 1.27 1.27)))))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 162.56 124.46 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "76dd9168-b6fd-4818-ac40-78ca76ed94ef") 
+
+(property "Reference" "D1" (at 158.0642 127.5588 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 165.862 128.016 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 162.56 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 162.56 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 162.56 124.46 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "fe159fc7-cc09-4a69-98c0-7d5c521c0c15")) (pin "2" (uuid "2cb23252-2fe1-4a3d-b6cd-6b486a59aa40")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D1") (unit 1))))) (sheet_instances (path "/" (page "1"))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 62.23 25.4 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "ea27736c-49d2-4153-bd4d-fa3a4b230ed3") 
+
+(property "Reference" "D1" (at 57.7342 28.4988 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 65.532 28.956 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 62.23 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 62.23 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 62.23 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "94b7132b-0032-4e56-ae69-351a5a3aa458")) (pin "2" (uuid "bdaec54c-8d99-411f-933a-e48ff180cd33")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D1") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 80.01 25.4 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "dd20938e-870c-4e89-967e-82cb3fc6c196") 
+
+(property "Reference" "D2" (at 75.5142 28.4988 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 83.312 28.956 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 80.01 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 80.01 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 80.01 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "7ba522fe-498a-40d0-b884-b3e9019dc2d7")) (pin "2" (uuid "de2d897e-3fff-421d-8604-b4cda81369aa")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D2") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 97.79 25.4 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b7a4e333-6f07-4c0f-bb51-85afe4460d2b") 
+
+(property "Reference" "D3" (at 93.2942 28.4988 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 101.092 28.956 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 97.79 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 97.79 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 97.79 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ac56d687-69e1-49e9-a8d1-2a48f31422cd")) (pin "2" (uuid "c90769fe-169c-46dd-a5c3-e2e0d6295662")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D3") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 115.57 25.4 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "f5d946f6-f1e8-4bc3-aa25-60626a13ac29") 
+
+(property "Reference" "D4" (at 111.0742 28.4988 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 118.872 28.956 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 115.57 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 115.57 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 115.57 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "73d099c6-c8b1-498b-8229-8c737bd66344")) (pin "2" (uuid "d1555c66-dae2-471f-82d1-d0d7243c4518")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D4") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 133.35 25.4 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "4080ad2d-5886-4668-ac72-48ad1bb5f9b0") 
+
+(property "Reference" "D5" (at 128.8542 28.4988 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 136.652 28.956 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 133.35 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 133.35 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 133.35 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "fa89d63e-84de-4c4c-80a4-22808291314b")) (pin "2" (uuid "2c28abeb-ce52-4676-b591-2a034495c7e6")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D5") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 44.45 40.64 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "9545c526-994c-4892-ae42-a3f256eab2ff") 
+
+(property "Reference" "D6" (at 39.9542 43.7388 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 47.752 44.196 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 44.45 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 44.45 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 44.45 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "2faa3f28-ddee-4e33-bbcd-4efd22396186")) (pin "2" (uuid "af91d415-3058-4c41-805d-e95521a2d7da")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D6") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 80.01 40.64 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "dca53083-8e9a-4c90-a825-25fc29c11c27") 
+
+(property "Reference" "D7" (at 75.5142 43.7388 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 83.312 44.196 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 80.01 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 80.01 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 80.01 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "903dbc88-0e35-40ca-9242-22f1631f605a")) (pin "2" (uuid "71ef1e56-bb1c-4239-8623-bc86928d4c99")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D7") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 97.79 40.64 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b0631903-f155-4313-8a09-98edc96513c3") 
+
+(property "Reference" "D8" (at 93.2942 43.7388 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 101.092 44.196 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 97.79 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 97.79 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 97.79 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "249e5c20-99b4-4da0-b007-6d74508d9c69")) (pin "2" (uuid "e1e361b6-b168-4854-b47a-61d5e362015c")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D8") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 115.57 40.64 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "9115bbb8-439c-4481-96e8-d3d356dd167f") 
+
+(property "Reference" "D9" (at 111.0742 43.7388 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 118.872 44.196 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 115.57 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 115.57 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 115.57 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "3883742d-ce6f-4edd-aa2c-ead19bb90d66")) (pin "2" (uuid "574d5679-cc88-4f2c-91b4-ad8fa2bbc511")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D9") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 133.35 40.64 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b4747d37-422b-41e8-ae4e-7afe6c441753") 
+
+(property "Reference" "D10" (at 128.8542 43.7388 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 136.652 44.196 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 133.35 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 133.35 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 133.35 40.64 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "9b8ecdcb-12a8-42f3-85c2-045fd942269c")) (pin "2" (uuid "7f4a2e3b-18ff-4f9a-a90d-2a04c5a212fc")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D10") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 44.45 55.88 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "7bf31d48-0fcb-4f5b-a887-11321201ef90") 
+
+(property "Reference" "D11" (at 39.9542 58.9788 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 47.752 59.436 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 44.45 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 44.45 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 44.45 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "860adb35-169a-4f3f-a178-cd51112c4296")) (pin "2" (uuid "45931191-f59a-493c-87d1-d07b2d495b92")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D11") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 62.23 55.88 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "569f1c0c-7e9e-4158-a3bd-5f7bbc7acc1f") 
+
+(property "Reference" "D12" (at 57.7342 58.9788 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 65.532 59.436 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 62.23 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 62.23 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 62.23 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "542bb324-fd2c-4e73-9491-4f2126d54e29")) (pin "2" (uuid "685b95b9-d9da-4a5b-9207-0dda621dc289")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D12") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 97.79 55.88 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "97c1f311-6d8d-4006-87db-516afa9a0152") 
+
+(property "Reference" "D13" (at 93.2942 58.9788 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 101.092 59.436 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 97.79 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 97.79 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 97.79 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "91a40dc1-6da0-4aeb-a8b4-f443512b8f11")) (pin "2" (uuid "9b67f873-afcc-492c-98be-47253da56b6c")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D13") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 115.57 55.88 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "7e137b9c-c2ac-4eba-ac79-e5506709e8f4") 
+
+(property "Reference" "D14" (at 111.0742 58.9788 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 118.872 59.436 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 115.57 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 115.57 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 115.57 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ee444e51-196b-4b91-8bed-1b6be4ac2fd3")) (pin "2" (uuid "9e938d47-2eb5-4b86-9b89-3f68e126f6ba")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D14") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 133.35 55.88 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "1cf2fddb-f3d7-47d3-bf6b-7c7f8aefcb9b") 
+
+(property "Reference" "D15" (at 128.8542 58.9788 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 136.652 59.436 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 133.35 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 133.35 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 133.35 55.88 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "48082433-9099-483f-bd62-66a3edce35b7")) (pin "2" (uuid "e53969b8-62a9-4ed8-a5c6-797aaccbb8f0")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D15") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 44.45 71.12 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "d64a0004-1246-4ee9-9b34-a8e45fa13083") 
+
+(property "Reference" "D16" (at 39.9542 74.2188 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 47.752 74.676 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 44.45 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 44.45 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 44.45 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "8e9684b6-f120-4b78-85d8-5acf6915abd8")) (pin "2" (uuid "9692e595-2dc9-496c-9c9a-783cefbb9e54")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D16") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 62.23 71.12 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "c48619da-82eb-4f09-8fb4-ff06f15a5393") 
+
+(property "Reference" "D17" (at 57.7342 74.2188 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 65.532 74.676 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 62.23 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 62.23 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 62.23 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "04d7f60b-4bd5-4273-9522-75e08329e8ee")) (pin "2" (uuid "a235f978-1a8b-48cd-9267-787f110d39f6")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D17") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 80.01 71.12 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "20db0560-411a-459a-95f2-331bd12398b5") 
+
+(property "Reference" "D18" (at 75.5142 74.2188 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 83.312 74.676 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 80.01 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 80.01 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 80.01 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "0b388e23-5046-468a-8850-08c168b85a31")) (pin "2" (uuid "5dee572c-a1dc-4201-a0fd-16c7d9fc3a8b")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D18") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 115.57 71.12 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "157847d2-6950-4fcb-8f05-84a13f8c7ce3") 
+
+(property "Reference" "D19" (at 111.0742 74.2188 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 118.872 74.676 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 115.57 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 115.57 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 115.57 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "71490e12-75d9-4af3-b179-4aba5d13a3fe")) (pin "2" (uuid "e8e9ac78-169c-4ec2-be73-da4b36bfd307")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D19") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 133.35 71.12 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "100f2540-bb09-4aea-9615-73f1ff1cc8a2") 
+
+(property "Reference" "D20" (at 128.8542 74.2188 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 136.652 74.676 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 133.35 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 133.35 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 133.35 71.12 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ef0a853e-15b0-4283-8b20-1c6ceb6451b0")) (pin "2" (uuid "5cc24eb0-685b-4767-9f7e-66edcd5528c5")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D20") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 44.45 86.36 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "d2a5137f-8245-48a9-bc6f-759abaa9247c") 
+
+(property "Reference" "D21" (at 39.9542 89.4588 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 47.752 89.916 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 44.45 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 44.45 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 44.45 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "48c00d8e-cae1-4e12-8642-1edbe84e2c68")) (pin "2" (uuid "0ec3e565-a739-47bf-9364-df26b9c3a2ca")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D21") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 62.23 86.36 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "5080ef41-9a3d-4192-999f-7dba6421830d") 
+
+(property "Reference" "D22" (at 57.7342 89.4588 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 65.532 89.916 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 62.23 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 62.23 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 62.23 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "1bb3e651-330e-4a4f-a49f-24910e60c183")) (pin "2" (uuid "0f32aa02-993a-4cce-b592-c1cd67f3d4a6")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D22") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 80.01 86.36 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "6b03678a-b895-41f5-adec-9877aad13e60") 
+
+(property "Reference" "D23" (at 75.5142 89.4588 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 83.312 89.916 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 80.01 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 80.01 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 80.01 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "38c9d648-f140-49d5-9cf7-97b4b1d8a1e0")) (pin "2" (uuid "b49e41c5-e33c-40cb-a13b-bb34879f48ca")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D23") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 97.79 86.36 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "04d98a95-7934-48f6-9ba6-7d81bdcbdca2") 
+
+(property "Reference" "D24" (at 93.2942 89.4588 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 101.092 89.916 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 97.79 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 97.79 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 97.79 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "47e3fd23-ab25-4810-b0c1-b6c932420cae")) (pin "2" (uuid "582f90fa-b816-4cc4-8fb7-fb268c00afad")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D24") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 133.35 86.36 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "5c487f82-3552-47b1-9beb-cbfb41efb7bd") 
+
+(property "Reference" "D25" (at 128.8542 89.4588 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 136.652 89.916 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 133.35 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 133.35 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 133.35 86.36 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "839d4277-a82b-449b-8576-881044e77dcc")) (pin "2" (uuid "587935c8-9ed8-4db9-828b-605fe788dada")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D25") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 44.45 101.6 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "e7a83d18-da38-4313-b843-65a32dd4cb85") 
+
+(property "Reference" "D26" (at 39.9542 104.6988 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 47.752 105.156 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 44.45 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 44.45 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 44.45 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "8f528ea1-d985-4a5b-9bf4-ae1b4f76eba5")) (pin "2" (uuid "bd6d6460-d5d0-4a55-98f4-26288d62f9f0")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D26") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 62.23 101.6 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "33d50754-bff1-4300-9799-6008ffe58809") 
+
+(property "Reference" "D27" (at 57.7342 104.6988 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 65.532 105.156 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 62.23 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 62.23 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 62.23 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "602ab5a0-a2e2-4aad-84cc-db0ad66d4b19")) (pin "2" (uuid "7c4fa6e2-612b-4b47-b6ff-3cdb9fc0401c")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D27") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 80.01 101.6 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "c739dd5b-b531-4b6b-8cc7-d39115f31f83") 
+
+(property "Reference" "D28" (at 75.5142 104.6988 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 83.312 105.156 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 80.01 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 80.01 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 80.01 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "320c8004-eb1b-447d-afb0-aa91665248c7")) (pin "2" (uuid "53481f00-334a-4617-822b-9efa2e703fd7")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D28") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 97.79 101.6 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "b49542c4-4f76-4825-8f3a-95b8d4e9b1f2") 
+
+(property "Reference" "D29" (at 93.2942 104.6988 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 101.092 105.156 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 97.79 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 97.79 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 97.79 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "63e4ec1a-58c9-46cf-803d-aa7ff2781eb4")) (pin "2" (uuid "86201587-2891-4029-82c7-cc87a42e1e30")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D29") (unit 1))))) 
+
+(symbol (lib_id "pre_schematic_v1-eagle-import:APG0603SEC-E-TT") (at 115.57 101.6 90) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (uuid "d4db6a8f-68c9-48bb-88cd-208af38935f8") 
+
+(property "Reference" "D30" (at 111.0742 104.6988 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Value" "APG0603SEC-E-TT" (at 118.872 105.156 0) (effects (font (size 1.27 1.0795)) (justify left bottom))) 
+
+(property "Footprint" "pre_schematic_v1:LED_APG0603SEC-E-TT" (at 115.57 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 115.57 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Description" "https://pricing.snapeda.com/parts/APG0603SEC-E-TT/Kingbright/view-part?ref=eda Check availability" (at 115.57 101.6 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e378a267-f806-4949-97d4-e9a3b6a438b5")) (pin "2" (uuid "7589efa7-1cc8-4ca4-8c8f-1aa3a7b45a98")) (instances (project "" (path "/a2bfafe5-1dd6-425f-943c-a6fc88437e10" (reference "D30") (unit 1))))) 
+
+(wire (pts 
+
+(xy 62.23 30.48) 
+
+(xy 59.69 30.48)) (stroke (width 0) (type default)) (uuid dfe4ca9f-ea67-48be-a802-139ec01b1eb4)) 
+
+(wire (pts 
+
+(xy 62.23 17.78) 
+
+(xy 64.77 17.78)) (stroke (width 0) (type default)) (uuid 8d812ddc-a0dd-4a6a-be61-2160efc5df04)) 
+
+(wire (pts 
+
+(xy 64.77 17.78) 
+
+(xy 64.77 10.16)) (stroke (width 0) (type default)) (uuid 68c9304b-ded7-4425-b1e6-72534c051062)) 
+
+(wire (pts 
+
+(xy 80.01 30.48) 
+
+(xy 77.47 30.48)) (stroke (width 0) (type default)) (uuid 6fd2babd-cf76-414b-9e08-f67249d963ec)) 
+
+(wire (pts 
+
+(xy 80.01 17.78) 
+
+(xy 82.55 17.78)) (stroke (width 0) (type default)) (uuid 607cc7e0-354f-4a34-a2a9-0ec9d112103f)) 
+
+(wire (pts 
+
+(xy 82.55 17.78) 
+
+(xy 82.55 10.16)) (stroke (width 0) (type default)) (uuid fcbfe161-9f52-44b2-8e02-5644689ce813)) 
+
+(wire (pts 
+
+(xy 97.79 30.48) 
+
+(xy 95.25 30.48)) (stroke (width 0) (type default)) (uuid 1fb6e649-8e12-4de7-a1d6-c09364fb0781)) 
+
+(wire (pts 
+
+(xy 97.79 17.78) 
+
+(xy 100.33 17.78)) (stroke (width 0) (type default)) (uuid 58a2f2a2-1cee-4376-8040-9c1038b8252e)) 
+
+(wire (pts 
+
+(xy 100.33 17.78) 
+
+(xy 100.33 10.16)) (stroke (width 0) (type default)) (uuid 28755916-28ff-4297-90a6-030adf212e11)) 
+
+(wire (pts 
+
+(xy 115.57 30.48) 
+
+(xy 113.03 30.48)) (stroke (width 0) (type default)) (uuid 5f768b2c-d7aa-4679-953c-6ae1abb3358d)) 
+
+(wire (pts 
+
+(xy 115.57 17.78) 
+
+(xy 118.11 17.78)) (stroke (width 0) (type default)) (uuid 1af5c371-2376-4d76-adf5-de841b10f772)) 
+
+(wire (pts 
+
+(xy 118.11 17.78) 
+
+(xy 118.11 10.16)) (stroke (width 0) (type default)) (uuid ddfb8306-78b9-45ce-8913-ff698b22bbcc)) 
+
+(wire (pts 
+
+(xy 133.35 30.48) 
+
+(xy 130.81 30.48)) (stroke (width 0) (type default)) (uuid 0feb17ce-bcc5-4fb7-99ca-6e3aa61b68a0)) 
+
+(wire (pts 
+
+(xy 133.35 17.78) 
+
+(xy 135.89 17.78)) (stroke (width 0) (type default)) (uuid 58b5146b-be9c-4721-9526-39c9e4e51029)) 
+
+(wire (pts 
+
+(xy 135.89 17.78) 
+
+(xy 135.89 10.16)) (stroke (width 0) (type default)) (uuid 36716551-3816-439b-891d-82cdafa6b8e8)) 
+
+(wire (pts 
+
+(xy 44.45 45.72) 
+
+(xy 41.91 45.72)) (stroke (width 0) (type default)) (uuid fd39fba9-4722-4540-8c67-2a00d270da11)) 
+
+(wire (pts 
+
+(xy 44.45 33.02) 
+
+(xy 46.99 33.02)) (stroke (width 0) (type default)) (uuid a3c533cb-a1b3-4940-9ec5-24392ab7b38e)) 
+
+(wire (pts 
+
+(xy 46.99 33.02) 
+
+(xy 46.99 25.4)) (stroke (width 0) (type default)) (uuid 60fbbfe0-5889-4b16-8f52-0f42ecd51511)) 
+
+(wire (pts 
+
+(xy 80.01 45.72) 
+
+(xy 77.47 45.72)) (stroke (width 0) (type default)) (uuid 4292a647-2f76-432f-9ecc-543205201580)) 
+
+(wire (pts 
+
+(xy 80.01 33.02) 
+
+(xy 82.55 33.02)) (stroke (width 0) (type default)) (uuid b1de1c8e-d0ac-4461-bd90-af1daca49ea0)) 
+
+(wire (pts 
+
+(xy 82.55 33.02) 
+
+(xy 82.55 25.4)) (stroke (width 0) (type default)) (uuid 4773f165-a873-4f3f-ae49-8477afb56c3f)) 
+
+(wire (pts 
+
+(xy 97.79 45.72) 
+
+(xy 95.25 45.72)) (stroke (width 0) (type default)) (uuid 8d9d0674-67f5-4745-90d6-7eac367854df)) 
+
+(wire (pts 
+
+(xy 97.79 33.02) 
+
+(xy 100.33 33.02)) (stroke (width 0) (type default)) (uuid f343da23-0cc9-40e1-8067-21049bdf6fe8)) 
+
+(wire (pts 
+
+(xy 100.33 33.02) 
+
+(xy 100.33 25.4)) (stroke (width 0) (type default)) (uuid d163728b-075a-44b7-8f32-8c6b1a8cfe78)) 
+
+(wire (pts 
+
+(xy 115.57 45.72) 
+
+(xy 113.03 45.72)) (stroke (width 0) (type default)) (uuid de90c866-59e2-4387-91e7-c4efc08f5818)) 
+
+(wire (pts 
+
+(xy 115.57 33.02) 
+
+(xy 118.11 33.02)) (stroke (width 0) (type default)) (uuid ec3850dd-0d3a-4a02-a7c3-80da3fc76e8b)) 
+
+(wire (pts 
+
+(xy 118.11 33.02) 
+
+(xy 118.11 25.4)) (stroke (width 0) (type default)) (uuid 585c2654-425b-4727-9bbe-2f5b3873739b)) 
+
+(wire (pts 
+
+(xy 133.35 45.72) 
+
+(xy 130.81 45.72)) (stroke (width 0) (type default)) (uuid a5c59383-9620-4e06-84a9-568c458ce36e)) 
+
+(wire (pts 
+
+(xy 133.35 33.02) 
+
+(xy 135.89 33.02)) (stroke (width 0) (type default)) (uuid 2366e058-967d-4bb8-8dc1-59522574fc08)) 
+
+(wire (pts 
+
+(xy 135.89 33.02) 
+
+(xy 135.89 25.4)) (stroke (width 0) (type default)) (uuid 903fb30d-8551-4faa-a394-4e60621d0623)) 
+
+(wire (pts 
+
+(xy 44.45 60.96) 
+
+(xy 41.91 60.96)) (stroke (width 0) (type default)) (uuid 8a21b2ba-9975-40a8-8a0b-724c99dc7e69)) 
+
+(wire (pts 
+
+(xy 44.45 48.26) 
+
+(xy 46.99 48.26)) (stroke (width 0) (type default)) (uuid c3c15450-f1cb-4c9a-a323-e32b00099b4d)) 
+
+(wire (pts 
+
+(xy 46.99 48.26) 
+
+(xy 46.99 40.64)) (stroke (width 0) (type default)) (uuid f0efa86c-fe5c-4adf-8a4d-a03eb21c165d)) 
+
+(wire (pts 
+
+(xy 62.23 60.96) 
+
+(xy 59.69 60.96)) (stroke (width 0) (type default)) (uuid 277e20ca-62e2-4f5b-8455-bc646954b50a)) 
+
+(wire (pts 
+
+(xy 62.23 48.26) 
+
+(xy 64.77 48.26)) (stroke (width 0) (type default)) (uuid ec4b3ab9-935c-4189-bf19-9d5c4bec45ad)) 
+
+(wire (pts 
+
+(xy 64.77 48.26) 
+
+(xy 64.77 40.64)) (stroke (width 0) (type default)) (uuid 53c6e3b9-72fa-4b6a-8685-6d2d3e9c5e65)) 
+
+(wire (pts 
+
+(xy 97.79 60.96) 
+
+(xy 95.25 60.96)) (stroke (width 0) (type default)) (uuid 01a41e76-0ba6-464a-94e2-cba72524e578)) 
+
+(wire (pts 
+
+(xy 97.79 48.26) 
+
+(xy 100.33 48.26)) (stroke (width 0) (type default)) (uuid 8e7c4643-1680-4506-a029-18c7679637a1)) 
+
+(wire (pts 
+
+(xy 100.33 48.26) 
+
+(xy 100.33 40.64)) (stroke (width 0) (type default)) (uuid 52a19abc-16dc-4321-b169-84d69ae74b82)) 
+
+(wire (pts 
+
+(xy 115.57 60.96) 
+
+(xy 113.03 60.96)) (stroke (width 0) (type default)) (uuid fdb1a96e-4789-4b5c-9aa6-4f68882c159d)) 
+
+(wire (pts 
+
+(xy 115.57 48.26) 
+
+(xy 118.11 48.26)) (stroke (width 0) (type default)) (uuid 06c0b74d-23bc-4ee2-9183-151cee685c3b)) 
+
+(wire (pts 
+
+(xy 118.11 48.26) 
+
+(xy 118.11 40.64)) (stroke (width 0) (type default)) (uuid c21a4442-606e-43ed-85a5-e19021c9df73)) 
+
+(wire (pts 
+
+(xy 133.35 60.96) 
+
+(xy 130.81 60.96)) (stroke (width 0) (type default)) (uuid f58902ca-5b22-4a2c-a5f1-cfee4802b5b6)) 
+
+(wire (pts 
+
+(xy 133.35 48.26) 
+
+(xy 135.89 48.26)) (stroke (width 0) (type default)) (uuid 9c728a03-cb8e-4b8b-851a-ac84fe424a7d)) 
+
+(wire (pts 
+
+(xy 135.89 48.26) 
+
+(xy 135.89 40.64)) (stroke (width 0) (type default)) (uuid 36c451a7-1d39-4bd7-b8cd-1d8a7d53ad76)) 
+
+(wire (pts 
+
+(xy 44.45 76.2) 
+
+(xy 41.91 76.2)) (stroke (width 0) (type default)) (uuid 5b7f95cc-5129-401d-8c18-d06b3cd163b6)) 
+
+(wire (pts 
+
+(xy 44.45 63.5) 
+
+(xy 46.99 63.5)) (stroke (width 0) (type default)) (uuid b02a6b01-8ee6-433e-b082-249c053752ec)) 
+
+(wire (pts 
+
+(xy 46.99 63.5) 
+
+(xy 46.99 55.88)) (stroke (width 0) (type default)) (uuid 9c734087-0c7d-481c-b003-ba5474c5d8f9)) 
+
+(wire (pts 
+
+(xy 62.23 76.2) 
+
+(xy 59.69 76.2)) (stroke (width 0) (type default)) (uuid d349e5d7-e602-4a72-b2e1-e42abdd43efb)) 
+
+(wire (pts 
+
+(xy 62.23 63.5) 
+
+(xy 64.77 63.5)) (stroke (width 0) (type default)) (uuid cfa36930-0270-4841-be1c-38218011b9d9)) 
+
+(wire (pts 
+
+(xy 64.77 63.5) 
+
+(xy 64.77 55.88)) (stroke (width 0) (type default)) (uuid 959711e3-5582-4253-8f4e-1f63ae978046)) 
+
+(wire (pts 
+
+(xy 80.01 76.2) 
+
+(xy 77.47 76.2)) (stroke (width 0) (type default)) (uuid 55abb014-79f3-4010-8568-cb9698456249)) 
+
+(wire (pts 
+
+(xy 80.01 63.5) 
+
+(xy 82.55 63.5)) (stroke (width 0) (type default)) (uuid bbd0766f-b2a3-4931-b462-1b78b79ec764)) 
+
+(wire (pts 
+
+(xy 82.55 63.5) 
+
+(xy 82.55 55.88)) (stroke (width 0) (type default)) (uuid eea2b70b-cd47-4998-bfa1-74aea69f2326)) 
+
+(wire (pts 
+
+(xy 115.57 76.2) 
+
+(xy 113.03 76.2)) (stroke (width 0) (type default)) (uuid c6f4a9e2-fd12-4591-a7f9-a14a79d2f2fe)) 
+
+(wire (pts 
+
+(xy 115.57 63.5) 
+
+(xy 118.11 63.5)) (stroke (width 0) (type default)) (uuid 6d91f5ac-c39e-4f8d-8352-50d9e71ae622)) 
+
+(wire (pts 
+
+(xy 118.11 63.5) 
+
+(xy 118.11 55.88)) (stroke (width 0) (type default)) (uuid 4479c65a-50a4-4616-bb3a-32acd8a61c9f)) 
+
+(wire (pts 
+
+(xy 133.35 76.2) 
+
+(xy 130.81 76.2)) (stroke (width 0) (type default)) (uuid 69de40a6-f975-440a-852a-6a6adddb1f07)) 
+
+(wire (pts 
+
+(xy 133.35 63.5) 
+
+(xy 135.89 63.5)) (stroke (width 0) (type default)) (uuid ae0f17bb-c486-4c73-a11b-7ab4e79ae054)) 
+
+(wire (pts 
+
+(xy 135.89 63.5) 
+
+(xy 135.89 55.88)) (stroke (width 0) (type default)) (uuid a4fc2a93-4ef7-443e-b5fc-2525e5c98bb8)) 
+
+(wire (pts 
+
+(xy 44.45 91.44) 
+
+(xy 41.91 91.44)) (stroke (width 0) (type default)) (uuid 1fc9b49f-88e1-4394-a543-0196ff456d4f)) 
+
+(wire (pts 
+
+(xy 44.45 78.74) 
+
+(xy 46.99 78.74)) (stroke (width 0) (type default)) (uuid 6c0eea6a-eaf4-47cb-b71e-28608d93dcce)) 
+
+(wire (pts 
+
+(xy 46.99 78.74) 
+
+(xy 46.99 71.12)) (stroke (width 0) (type default)) (uuid 6366e435-611a-4524-b4f3-4db671518862)) 
+
+(wire (pts 
+
+(xy 62.23 91.44) 
+
+(xy 59.69 91.44)) (stroke (width 0) (type default)) (uuid e15db61f-b0af-43f4-8356-cef738e22a4a)) 
+
+(wire (pts 
+
+(xy 62.23 78.74) 
+
+(xy 64.77 78.74)) (stroke (width 0) (type default)) (uuid b46e82c4-36a1-4a0d-b876-4192b51d5de5)) 
+
+(wire (pts 
+
+(xy 64.77 78.74) 
+
+(xy 64.77 71.12)) (stroke (width 0) (type default)) (uuid dc0e5d56-1709-4708-b233-fb9c36769378)) 
+
+(wire (pts 
+
+(xy 80.01 91.44) 
+
+(xy 77.47 91.44)) (stroke (width 0) (type default)) (uuid 25d6cccd-4fc0-405a-939b-2f7f35e7b7f1)) 
+
+(wire (pts 
+
+(xy 80.01 78.74) 
+
+(xy 82.55 78.74)) (stroke (width 0) (type default)) (uuid a456f995-7587-47d4-9098-da1d9cc65bf1)) 
+
+(wire (pts 
+
+(xy 82.55 78.74) 
+
+(xy 82.55 71.12)) (stroke (width 0) (type default)) (uuid dab7dddb-4cd0-4901-814e-82b7fb2a8f15)) 
+
+(wire (pts 
+
+(xy 97.79 91.44) 
+
+(xy 95.25 91.44)) (stroke (width 0) (type default)) (uuid 859eb05e-d2bd-4833-a7fa-2a81e622dd10)) 
+
+(wire (pts 
+
+(xy 97.79 78.74) 
+
+(xy 100.33 78.74)) (stroke (width 0) (type default)) (uuid e3e9f986-fa5c-4f58-8692-4121b955a70c)) 
+
+(wire (pts 
+
+(xy 100.33 78.74) 
+
+(xy 100.33 71.12)) (stroke (width 0) (type default)) (uuid a793c47f-56dd-4b15-8753-6cee3b249f9f)) 
+
+(wire (pts 
+
+(xy 133.35 91.44) 
+
+(xy 130.81 91.44)) (stroke (width 0) (type default)) (uuid 0ffed739-297d-493c-852e-a3d467885baf)) 
+
+(wire (pts 
+
+(xy 133.35 78.74) 
+
+(xy 135.89 78.74)) (stroke (width 0) (type default)) (uuid 2f7dc48c-8154-4f85-b485-281875f20997)) 
+
+(wire (pts 
+
+(xy 135.89 78.74) 
+
+(xy 135.89 71.12)) (stroke (width 0) (type default)) (uuid fd5929f9-fa64-4a63-9b28-e82932fc7ea8)) 
+
+(wire (pts 
+
+(xy 44.45 106.68) 
+
+(xy 41.91 106.68)) (stroke (width 0) (type default)) (uuid 11a9bc66-cc0e-4b21-934a-a1aabefd83f3)) 
+
+(wire (pts 
+
+(xy 44.45 93.98) 
+
+(xy 46.99 93.98)) (stroke (width 0) (type default)) (uuid 1a6db509-2c9d-4c3f-9685-9566806580ae)) 
+
+(wire (pts 
+
+(xy 46.99 93.98) 
+
+(xy 46.99 86.36)) (stroke (width 0) (type default)) (uuid 0a86bcf6-f03d-4e4f-b3c8-f934e8086241)) 
+
+(wire (pts 
+
+(xy 62.23 106.68) 
+
+(xy 59.69 106.68)) (stroke (width 0) (type default)) (uuid bbf526d3-9524-444d-937f-6355d37e07f9)) 
+
+(wire (pts 
+
+(xy 62.23 93.98) 
+
+(xy 64.77 93.98)) (stroke (width 0) (type default)) (uuid 96d24abc-c28b-42f0-9156-f354e5a879a3)) 
+
+(wire (pts 
+
+(xy 64.77 93.98) 
+
+(xy 64.77 86.36)) (stroke (width 0) (type default)) (uuid d2d994a6-7e30-4198-91e0-01994f599971)) 
+
+(wire (pts 
+
+(xy 80.01 106.68) 
+
+(xy 77.47 106.68)) (stroke (width 0) (type default)) (uuid 952e95d6-7bb5-4b05-af1d-2203c4064a2b)) 
+
+(wire (pts 
+
+(xy 80.01 93.98) 
+
+(xy 82.55 93.98)) (stroke (width 0) (type default)) (uuid bcc48f8c-d202-471c-8d5d-457a185fa8c4)) 
+
+(wire (pts 
+
+(xy 82.55 93.98) 
+
+(xy 82.55 86.36)) (stroke (width 0) (type default)) (uuid 5a11285e-e62b-44dc-bd0e-6e9188d0c2d8)) 
+
+(wire (pts 
+
+(xy 97.79 106.68) 
+
+(xy 95.25 106.68)) (stroke (width 0) (type default)) (uuid 48d89402-2373-4836-95de-a9f1283b1b73)) 
+
+(wire (pts 
+
+(xy 97.79 93.98) 
+
+(xy 100.33 93.98)) (stroke (width 0) (type default)) (uuid 130161d6-cac0-41ca-9ddc-3f98c1fdcd8e)) 
+
+(wire (pts 
+
+(xy 100.33 93.98) 
+
+(xy 100.33 86.36)) (stroke (width 0) (type default)) (uuid ad7d8c3f-30c9-4939-be9f-c4e6d0a28512)) 
+
+(wire (pts 
+
+(xy 115.57 106.68) 
+
+(xy 113.03 106.68)) (stroke (width 0) (type default)) (uuid f5cc769e-2be6-407b-8c43-dea9dd72ffe0)) 
+
+(wire (pts 
+
+(xy 115.57 93.98) 
+
+(xy 118.11 93.98)) (stroke (width 0) (type default)) (uuid 7dd87c94-c34c-4b63-a805-2c98a4f41ff6)) 
+
+(wire (pts 
+
+(xy 118.11 93.98) 
+
+(xy 118.11 86.36)) (stroke (width 0) (type default)) (uuid d0ea1551-cd78-4788-bf90-dcb73da4e1bf)) 
+
+(wire (pts 
+
+(xy 135.89 10.16) 
+
+(xy 54.61 10.16)) (stroke (width 0) (type default)) (uuid ab931135-92d7-487c-8e47-806464a370ed)) 
+
+(junction (at 64.77 10.16) (diameter 0) (color 0 0 0 0) (uuid eab8d081-5378-41b3-8e5e-079881e58f8c)) 
+
+(junction (at 82.55 10.16) (diameter 0) (color 0 0 0 0) (uuid 785a23ed-ed21-4b6d-a34d-8ad95a92cc87)) 
+
+(junction (at 100.33 10.16) (diameter 0) (color 0 0 0 0) (uuid b254c313-fc13-4520-ae5d-f930ce3a9952)) 
+
+(junction (at 118.11 10.16) (diameter 0) (color 0 0 0 0) (uuid 3cd3e260-269f-46b2-8e23-99ce79367035)) 
+
+(junction (at 135.89 10.16) (diameter 0) (color 0 0 0 0) (uuid b7aa0447-1e77-42ef-980a-678d168a5a9d)) 
+
+(global_label "CHRLY_1" (shape input) (at 54.61 10.16 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid 7bbbfc4c-fc66-4152-aed8-cc83d84c795b) 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 48.3591 10.16 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(wire (pts 
+
+(xy 135.89 25.4) 
+
+(xy 36.83 25.4)) (stroke (width 0) (type default)) (uuid afb67bc3-e175-4ddc-84a1-9ba281a86f95)) 
+
+(junction (at 46.99 25.4) (diameter 0) (color 0 0 0 0) (uuid d9a3196a-2553-4a73-83f7-eb915e8fbe82)) 
+
+(junction (at 82.55 25.4) (diameter 0) (color 0 0 0 0) (uuid e8fc35b0-8a24-453d-90ce-415132512764)) 
+
+(junction (at 100.33 25.4) (diameter 0) (color 0 0 0 0) (uuid ed92a6b3-858c-40ff-ac2d-c72bd993784c)) 
+
+(junction (at 118.11 25.4) (diameter 0) (color 0 0 0 0) (uuid c87d3a57-c24e-4a96-b671-cd5cc07511fb)) 
+
+(junction (at 135.89 25.4) (diameter 0) (color 0 0 0 0) (uuid 1a865ef8-ca23-48e3-9369-b500cb3389f0)) 
+
+(global_label "CHRLY_2" (shape input) (at 36.83 25.4 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid 0de36460-447f-41ee-b044-ac9ea62351ca) 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 30.5791 25.4 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(wire (pts 
+
+(xy 135.89 40.64) 
+
+(xy 36.83 40.64)) (stroke (width 0) (type default)) (uuid e90d00b1-3e73-4e54-9d1b-0ec15cc3ab62)) 
+
+(junction (at 46.99 40.64) (diameter 0) (color 0 0 0 0) (uuid 09de70b3-47f8-4d66-9209-8089f7f357ff)) 
+
+(junction (at 64.77 40.64) (diameter 0) (color 0 0 0 0) (uuid 5eb0a72d-ac19-43ea-92d3-ad4e02ed6a70)) 
+
+(junction (at 100.33 40.64) (diameter 0) (color 0 0 0 0) (uuid 10dd94e4-cdaa-466f-9dc8-23fade283201)) 
+
+(junction (at 118.11 40.64) (diameter 0) (color 0 0 0 0) (uuid 2b7e5f3b-90ff-4d5d-bfb7-c572192d1bf5)) 
+
+(junction (at 135.89 40.64) (diameter 0) (color 0 0 0 0) (uuid d62d77f0-2bf1-413b-88c3-d2df07c6a9f9)) 
+
+(global_label "CHRLY_3" (shape input) (at 36.83 40.64 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid 0d76fcea-29d0-4224-9924-d12716f995b2) 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 30.5791 40.64 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(wire (pts 
+
+(xy 135.89 55.88) 
+
+(xy 36.83 55.88)) (stroke (width 0) (type default)) (uuid 510e88d9-b23e-495a-8141-e407e282818b)) 
+
+(junction (at 46.99 55.88) (diameter 0) (color 0 0 0 0) (uuid cdddc13a-66e4-4940-bc35-8c703b05c4c6)) 
+
+(junction (at 64.77 55.88) (diameter 0) (color 0 0 0 0) (uuid e97a4bce-d50e-47e0-94be-6a8957086ec8)) 
+
+(junction (at 82.55 55.88) (diameter 0) (color 0 0 0 0) (uuid f03b8f49-d7e4-4534-9a82-e968f1f5f356)) 
+
+(junction (at 118.11 55.88) (diameter 0) (color 0 0 0 0) (uuid 8184a8f6-91a8-4a03-b2eb-09cbaca9bb5a)) 
+
+(junction (at 135.89 55.88) (diameter 0) (color 0 0 0 0) (uuid 9a241c85-4160-40de-96c1-0ebeb6b30781)) 
+
+(global_label "CHRLY_4" (shape input) (at 36.83 55.88 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid 833af234-3cc1-4644-adc7-3e664d8f9ce0) 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 30.5791 55.88 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(wire (pts 
+
+(xy 135.89 71.12) 
+
+(xy 36.83 71.12)) (stroke (width 0) (type default)) (uuid fdc102f4-e8bf-4824-9857-cb3f135faeda)) 
+
+(junction (at 46.99 71.12) (diameter 0) (color 0 0 0 0) (uuid fd002cae-125d-4265-b0d9-f59c18df1bca)) 
+
+(junction (at 64.77 71.12) (diameter 0) (color 0 0 0 0) (uuid 1fa9aa29-25ae-49ac-be48-b481944e190a)) 
+
+(junction (at 82.55 71.12) (diameter 0) (color 0 0 0 0) (uuid cca9389a-9f53-487c-8736-6f84d14a7e7a)) 
+
+(junction (at 100.33 71.12) (diameter 0) (color 0 0 0 0) (uuid 916cfce1-58c7-4e25-ac64-2096811029a9)) 
+
+(junction (at 135.89 71.12) (diameter 0) (color 0 0 0 0) (uuid 592281e8-4107-4153-a66d-5024d467991c)) 
+
+(global_label "CHRLY_5" (shape input) (at 36.83 71.12 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid 59897d60-1a48-4284-a22f-e8185d05613c) 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 30.5791 71.12 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(wire (pts 
+
+(xy 118.11 86.36) 
+
+(xy 36.83 86.36)) (stroke (width 0) (type default)) (uuid a9848eed-e605-459a-a40d-e86c53cf30f2)) 
+
+(junction (at 46.99 86.36) (diameter 0) (color 0 0 0 0) (uuid a8bb18ef-d682-420e-afdc-3fb1814950f1)) 
+
+(junction (at 64.77 86.36) (diameter 0) (color 0 0 0 0) (uuid 01fe6bbe-1fc3-4653-86f1-ff62d82b46a2)) 
+
+(junction (at 82.55 86.36) (diameter 0) (color 0 0 0 0) (uuid ec877f7e-a608-4108-86bd-1fc7edf8551c)) 
+
+(junction (at 100.33 86.36) (diameter 0) (color 0 0 0 0) (uuid 5fe3e237-54ed-4af5-a84a-ca5eb7ef231e)) 
+
+(junction (at 118.11 86.36) (diameter 0) (color 0 0 0 0) (uuid 0b01062e-8d5c-48df-8ca7-acdd3b7c9818)) 
+
+(global_label "CHRLY_6" (shape input) (at 36.83 86.36 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid 618619a0-0498-4665-853d-2d5e451894be) 
+
+(property "Intersheetrefs" "${INTERSHEET_REFS}" (at 30.5791 86.36 0) (effects (font (size 1.27 1.27)) (justify right) hide))) 
+
+(wire (pts 
+
+(xy 41.91 45.72) 
+
+(xy 41.91 116.84)) (stroke (width 0.4) (type dot)) (uuid f981e422-1265-47a2-9c9d-b184f8bb011b)) 
+
+(junction (at 41.91 45.72) (diameter 0) (color 0 0 0 0) (uuid 1da8a10c-fbc0-49d0-bb2d-dc0fd7881f88)) 
+
+(junction (at 41.91 60.96) (diameter 0) (color 0 0 0 0) (uuid 29c77193-f8d4-43a2-8476-c6cd0fad2252)) 
+
+(junction (at 41.91 76.2) (diameter 0) (color 0 0 0 0) (uuid a59e369d-e474-4d4b-b4f5-228fca9805d3)) 
+
+(junction (at 41.91 91.44) (diameter 0) (color 0 0 0 0) (uuid 9a290e37-929c-417a-92c2-8c56184fafa6)) 
+
+(junction (at 41.91 106.68) (diameter 0) (color 0 0 0 0) (uuid 167b495c-5ef3-42e6-91fb-41b2980e57ae)) 
+
+(wire (pts 
+
+(xy 59.69 30.48) 
+
+(xy 59.69 116.84)) (stroke (width 0.4) (type dot)) (uuid 318934c7-276a-4a3e-893e-8f17c33f9f01)) 
+
+(junction (at 59.69 60.96) (diameter 0) (color 0 0 0 0) (uuid 9ca9d5bd-62a4-46d6-bfb4-67f9335cb2e8)) 
+
+(junction (at 59.69 76.2) (diameter 0) (color 0 0 0 0) (uuid 95d3f408-f52b-45e9-bd99-f41139a0e4a1)) 
+
+(junction (at 59.69 91.44) (diameter 0) (color 0 0 0 0) (uuid 2b375ae2-82fd-4bf3-bea2-b58a04685986)) 
+
+(junction (at 59.69 106.68) (diameter 0) (color 0 0 0 0) (uuid 7f4acc64-05b5-4243-ac33-3819d780d811)) 
+
+(wire (pts 
+
+(xy 77.47 30.48) 
+
+(xy 77.47 116.84)) (stroke (width 0.4) (type dot)) (uuid 84fa2f2f-9795-4253-9c9d-e4c146c304d4)) 
+
+(junction (at 77.47 45.72) (diameter 0) (color 0 0 0 0) (uuid 9e926bce-bd12-4150-9d00-c77faa525597)) 
+
+(junction (at 77.47 76.2) (diameter 0) (color 0 0 0 0) (uuid 382e38b2-084d-407e-8601-c39f356d6c04)) 
+
+(junction (at 77.47 91.44) (diameter 0) (color 0 0 0 0) (uuid 26ecb31c-3847-4db9-966d-2e14b9fc1bee)) 
+
+(junction (at 77.47 106.68) (diameter 0) (color 0 0 0 0) (uuid 22436e47-6c65-4ace-ab2b-2016434946da)) 
+
+(wire (pts 
+
+(xy 95.25 30.48) 
+
+(xy 95.25 116.84)) (stroke (width 0.4) (type dot)) (uuid ed314283-ffe9-439c-9e83-74e780b9587d)) 
+
+(junction (at 95.25 45.72) (diameter 0) (color 0 0 0 0) (uuid de9c6eb4-8009-49ed-854a-47a44bec0ac1)) 
+
+(junction (at 95.25 60.96) (diameter 0) (color 0 0 0 0) (uuid 30e48051-fc34-495b-8965-d62f21991f9e)) 
+
+(junction (at 95.25 91.44) (diameter 0) (color 0 0 0 0) (uuid aac63e48-a1ef-438f-ba18-4763ea00cf38)) 
+
+(junction (at 95.25 106.68) (diameter 0) (color 0 0 0 0) (uuid 4008868f-02ce-4bc5-bacb-0a027efdbdc7)) 
+
+(wire (pts 
+
+(xy 113.03 30.48) 
+
+(xy 113.03 116.84)) (stroke (width 0.4) (type dot)) (uuid b47626b4-a3f8-4cfd-a450-44406c451430)) 
+
+(junction (at 113.03 45.72) (diameter 0) (color 0 0 0 0) (uuid cc1c4e36-fdda-4394-bc2f-9d029a97cf8f)) 
+
+(junction (at 113.03 60.96) (diameter 0) (color 0 0 0 0) (uuid 3703a65c-72bc-4dbd-83c2-fb985033897e)) 
+
+(junction (at 113.03 76.2) (diameter 0) (color 0 0 0 0) (uuid 4fccff96-afde-49ca-8021-57ce95dc16dc)) 
+
+(junction (at 113.03 106.68) (diameter 0) (color 0 0 0 0) (uuid 330cd7c5-3ad0-46a2-b62a-c199727770f2)) 
+
+(wire (pts 
+
+(xy 130.81 30.48) 
+
+(xy 130.81 101.6)) (stroke (width 0.4) (type dot)) (uuid 2e1570c2-2a4f-44a8-a579-eea7c867a176)) 
+
+(junction (at 130.81 45.72) (diameter 0) (color 0 0 0 0) (uuid df674045-5e42-47f2-a67a-af1a266b2756)) 
+
+(junction (at 130.81 60.96) (diameter 0) (color 0 0 0 0) (uuid 96539d61-bb52-49ab-b7eb-d20746f35653)) 
+
+(junction (at 130.81 76.2) (diameter 0) (color 0 0 0 0) (uuid 99095291-c624-4166-8895-eca3b1b71d84)) 
+
+(junction (at 130.81 91.44) (diameter 0) (color 0 0 0 0) (uuid 349c7305-5500-4974-b4e4-b2e0d17f88dc)) 
+
+(label "CATH_1" (at 41.91 116.84 90) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 443b6408-c9d1-4953-bcbd-a24cbc3811a8)) 
+
+(label "CATH_2" (at 59.69 116.84 90) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid db8b63de-5df8-40f9-a180-5b94e34663f0)) 
+
+(label "CATH_3" (at 77.47 116.84 90) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid f1cf6418-e6c8-4d9c-82a5-4873c2607322)) 
+
+(label "CATH_4" (at 95.25 116.84 90) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 0d27a6b2-c916-43ca-98bd-b6e66bdca581)) 
+
+(label "CATH_5" (at 113.03 116.84 90) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 7a03c0d8-4e66-488d-b3ce-b7eff76cfd84)) 
+
+(label "CATH_6" (at 130.81 101.6 90) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 49221eab-509a-4709-b81d-18fa36023863)) 
+
+(label "CATH_1" (at 57.15 10.16 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid c198bc73-7622-48ba-a5f0-a77aada687e5)) 
+
+(label "CATH_2" (at 39.37 25.4 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 88c4b3f2-843c-426b-a055-c648e453efd1)) 
+
+(label "CATH_3" (at 39.37 40.64 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 6cfc7656-759f-4f43-87d7-6937e9279fab)) 
+
+(label "CATH_4" (at 39.37 55.88 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 4612d702-16a3-49b1-aebc-bfac5d1ef290)) 
+
+(label "CATH_5" (at 39.37 71.12 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 49af17d2-d013-459b-892c-517b89701d13)) 
+
+(label "CATH_6" (at 39.37 86.36 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid 6989b9da-8269-465e-9cdf-5cdbf5cce580)))

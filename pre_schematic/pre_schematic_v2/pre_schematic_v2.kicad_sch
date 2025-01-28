@@ -1,0 +1,275 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5e61c743-ccd5-47ac-8234-f60eb6f38a62")
+	(paper "A4")
+	(lib_symbols
+		(symbol "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 10.1904 8.9165 0)
+				(effects
+					(font
+						(size 1.7833 1.5158)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 10.182 6.3637 0)
+				(effects
+					(font
+						(size 1.7818 1.5145)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "https://pricing.snapeda.com/parts/APG0603PBC-TT-5MAV/Kingbright/view-part?ref=eda Check availability"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "APG0603PBC-TT-5MAV_1_0"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 3.048) (xy 4.064 5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 3.048) (xy 6.096 5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 5.5879) (xy 4.826 4.064) (xy 5.588 4.826) (xy 4.064 5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 5.5879) (xy 6.858 4.064) (xy 7.62 4.826) (xy 6.096 5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pre_schematic_v2-eagle-import:APG0603PBC-TT-5MAV")
+		(at 142.24 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e26ba859-da02-4c61-a2f6-c2b9c0eded13")
+		(property "Reference" "D1"
+			(at 151.1565 96.5504 0)
+			(effects
+				(font
+					(size 1.7833 1.5158)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0201_2.4V_20mA"
+			(at 148.6037 96.542 0)
+			(effects
+				(font
+					(size 1.7818 1.5145)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "pre_schematic_v2:0.65X0.35X0.2MM(0201)SMDCHIPLE"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f10b422-16e8-4565-b4ed-16b5d8b9af54")
+		)
+		(pin "2"
+			(uuid "f501683a-ce3b-4519-998d-f5a3454fdaa8")
+		)
+		(instances
+			(project ""
+				(path "/5e61c743-ccd5-47ac-8234-f60eb6f38a62"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
