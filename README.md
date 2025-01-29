@@ -1,6 +1,10 @@
 # chearring
 
-Project to generate <1 cm charlieplexed grid of leds with ch32v003 based on https://mitxela.com/projects/ledstud. Project designed in Autodesk Fusion with schematic design in KiCad based on code from [kikad-skip](https://github.com/psychogenic/kicad-skip). Includes an Autodesk/EAGLE library with symbols, footprints and 3d designs for the following components: 
+Project to generate <1 cm charlieplexed grid of leds with ch32v003 based on https://mitxela.com/projects/ledstud. 
+
+Project designed in Autodesk Fusion with schematic design in KiCad based on code from [kikad-skip](https://github.com/psychogenic/kicad-skip). 
+
+Includes an Autodesk/EAGLE library with symbols, footprints and 3d designs for the following components: 
 
 1. ### CH32V003F4U6 (QFN20)
 2. ### 0201 LED
